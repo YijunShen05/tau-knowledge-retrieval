@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+key.txt
+*_key.txt
+*.pem
+*.key
+final/tau2-bench/
+final/baseline/tau2-v1.0.0/
+final/baseline/.tools/
+*.log
+*.lock

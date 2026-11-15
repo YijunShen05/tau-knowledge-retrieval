@@ -1,0 +1,32 @@
+{
+  "documents": 698,
+  "matched_tasks": 97,
+  "archive_commit": "26c0e46b7154f8dff2c2cdbadbcc5aa2ede91212",
+  "terminal_pass1": 0.2551546391752577,
+  "terminal_pass4": 0.09278350515463918,
+  "checks": {
+    "task_004": [
+      1.0,
+      0.0
+    ],
+    "task_001": [
+      1.0,
+      0.0
+    ],
+    "task_098": [
+      0.0,
+      1.0
+    ]
+  },
+  "seeds": [
+    54907,
+    280679,
+    91421,
+    806309
+  ],
+  "basis": {
+    "DB": 87,
+    "ACTION": 9,
+    "DB+NL_ASSERTION": 1
+  }
+}

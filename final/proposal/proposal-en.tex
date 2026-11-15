@@ -1,0 +1,148 @@
+\documentclass{article}
+\usepackage[preprint,nonatbib]{neurips_2025}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{xcolor}
+\definecolor{cardink}{HTML}{193B43}
+\definecolor{cardwash}{HTML}{EFF5F5}
+\definecolor{cardpass}{HTML}{235747}
+\definecolor{cardfail}{HTML}{893D30}
+\newenvironment{tracecard}[2]{\par\addvspace{5pt}\noindent\begin{minipage}{\linewidth}
+  \setlength{\parindent}{0pt}\small
+  \colorbox{cardwash}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\strut\textcolor{cardink}{\bfseries #1}\hfill #2}}\par\smallskip
+}{\end{minipage}\par\addvspace{4pt}}
+\newcommand{\turnline}[2]{\noindent\makebox[.17\linewidth][l]{\textcolor{cardink}{\bfseries #1}}\parbox[t]{.83\linewidth}{#2\strut}\par}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\makeatletter\renewcommand{\@noticestring}{DATS-SHU-200 Data Mining. Final project proposal. November 2026.}\makeatother
+\title{When Should a Banking Agent Narrow Its Search?}
+\author{Yijun Shen\\NYU Shanghai}
+\begin{document}\maketitle
+\begin{abstract}
+In a banking conversation, a policy can establish which products are eligible for a promotion while leaving open which product the customer wants. This project asks when an agent should narrow its search after reading the first results. I use the BM25 agent in $\tau$-Knowledge as the baseline. I propose treating the opening search as a source of leads, then checking whether the dialogue supports a proposed restriction before the next search. The empirical question is whether this improves task completion at an acceptable cost in search calls and clarification turns.
+\end{abstract}
+
+\section{Introduction}
+In Task 098, a customer asks which account pays the highest referral bonus. Figure 4 of Shi et al. [1] shows what the agent and customer did next.
+
+\begin{tracecard}{Task 098 \enspace Referral bonus}{\emph{Condensed from Fig.~4}}
+\turnline{Customer}{Which account gives the best bonus for referring a friend?}
+\turnline{KB search}{Ranks 1--3 describe credit cards. Rank 7 describes a checking-account referral.}
+\turnline{Agent}{Here are the best credit-card offers.}
+\turnline{Customer}{I meant a checking account.}
+\end{tracecard}
+
+The first search surfaced both categories. Its ranking gave the agent a lead about bank products, while the customer's preference was still unknown.
+
+\paragraph{Research question.} Within the course direction of \emph{agentic search and retrieval}, I study the transition from the first search to the next decision. When several product categories fit the customer's words, should the agent narrow its query, investigate several candidates, or ask a question? Each choice has a cost. A query restricted to credit cards can displace checking-account policies from a ten-document result set. A clarification takes an extra turn, even when the customer has already specified the product. In banking, this decision can affect which referral the agent ultimately submits.
+
+\paragraph{Prior approaches and proposed contribution.} Shi et al. [1] vary the retrieval interface and report failures caused by unsupported assumptions about customer intent. The opening results can supply candidate products and search terms. Before committing to one category, the agent can check whether the restriction follows from the customer's words, an eligibility rule, or simply the ranking. I will compare this two-stage search procedure with the original agent, and measure separately the contribution of an optional reviewer that checks this single decision. Task success, search calls, and clarification turns will show whether the extra step pays for itself.
+
+\section{Baseline Explanation}
+\subsection{Task and information available to the agent}
+The benchmark is $\tau$-Knowledge [1]. Its $\tau$-Banking environment is distributed in Sierra's \texttt{tau2-bench} repository [2]. It contains 97 tasks and a fixed corpus $D$ of 698 documents covering 21 categories. In each episode the simulator receives a private scenario and conditional instructions about what to reveal or do. Let $s_t$ denote the bank database and $h_t$ the dialogue, retrieved documents, and tool responses visible to the agent at step $t$. The agent can observe relevant parts of $s_t$ by calling banking tools. The user's private instructions and the evaluator's target state are unavailable to the BM25 agent.
+
+\begin{center}\small
+\begin{tabular}{@{}lr@{\hspace{1.5em}}lr@{}}
+\hline
+\multicolumn{2}{l}{\textbf{Bank knowledge base}} & \multicolumn{2}{l}{\textbf{Tasks and interaction}}\\
+Corpus size in tokens & 194,562 & Tasks & 97\\
+Documents & 698 & Always-available agent tools & 14\\
+Mean tokens per document & 278.7 & Mean documents required per task & 18.6\\
+Knowledge categories & 21 & Mean tool calls required per task & 9.52\\
+Discoverable tools & 51 & Fewest / most required tool calls & 1 / 33\\
+\hline
+\multicolumn{4}{l}{\textbf{Evaluation}\quad Task reliability measured by pass$^k$.}\\
+\hline
+\end{tabular}\par
+Table 1. τ-Banking domain statistics, adapted from Shi et al. [1, Table 1, p.~4].\\
+The authors count corpus tokens with \texttt{cl100k\_base}.
+\end{center}
+A task requires 18.6 documents on average, whereas one BM25 query returns at most ten. Some tasks therefore require combining evidence across searches, even if every retrieved document is relevant. The tool-call counts in Table 1 describe task requirements. An agent may take more calls to complete a task.
+
+\subsection{One decision in the official interaction loop}
+Given $h_t$, its policy instructions, and tool schemas, the LLM chooses a customer-facing message or a tool call. A message can elicit a missing preference from the simulator. Calling \texttt{KB\_search} with query $q_t$ returns up to ten documents, each with its ID, title, score, and text. The agent can search again or act on the evidence. For example, a policy may specify the eligibility conditions and the signature of a discoverable banking tool. The agent can invoke that operation through \texttt{call\_discoverable\_agent\_tool}. The returned observation becomes part of $h_{t+1}$. This repeated choice is the component the project changes. The corpus, banking operations, and evaluator stay fixed across the comparison.
+
+\subsection{Ranking, task reward, and the Gold comparison}
+The released BM25 implementation lowercases and whitespace-tokenizes document bodies and queries [2]. For a token $w$, let $f_{w,d}$ be its count in document $d$, and let $L_d$ and $\bar L$ denote document length and mean corpus length in tokens. The retriever ranks documents by
+\[
+ S(q,d)=\sum_{w\in q} I(w)\,
+ \frac{f_{w,d}(k_1+1)}
+ {f_{w,d}+k_1(1-b+bL_d/\bar L)},\qquad k_1=1.5,\quad b=0.75 .
+\]
+Here $I(w)$ is the Okapi implementation's inverse-document-frequency weight. Repeating a word has diminishing returns within a document, and a match on a rare product name can move its policy into the top ten. The LLM chooses the query at inference time. No model parameters are fitted in this baseline.
+
+The official evaluator scores each completed trajectory against the criteria selected for its task. These can include a database outcome, a required action, or a communication requirement. A highly ranked policy earns no reward by itself. With four trials per task, $\mathrm{pass}^{1}$ averages the fraction of successful trials per task, and $\mathrm{pass}^{4}$ is the fraction of tasks for which all four succeed. In the official Gold condition, the evaluator's designated documents are inserted into the agent's initial policy context and the search tool is omitted. Gold therefore measures performance when relevant documents are supplied up front. Any remaining errors can include policy interpretation, interaction, and tool execution. The optional reviewer in the proposed BM25 variant has access only to evidence the agent has already observed.
+\subsection{A reference task with one observable outcome}
+In Task 006 the customer wants a card with a foreign transaction fee and minimum payment both at or below 1.5\%, virtual-card management, and eligibility at a credit score of 540. The customer trades cryptocurrency, earns \$95,000 a year, and has no Rho-Bank+ subscription. The simulated user controls the application tool and can submit immediately after receiving a recommendation. The reference action submits EcoCard, and the evaluator checks the resulting database [2, 3]. Crypto-Cash Back is a plausible lead given the customer's occupation, but its minimum credit score is 660. The question to look for in the trajectory is whether the agent checks that condition before making a recommendation.
+
+\section{Baseline Reproduction}
+\subsection{Experimental setup and search access}
+To keep four trials per task affordable, I used DeepSeek V4.1 Flash 1017 with high reasoning effort as the agent. The published comparison uses GPT-5.2 high [1]. I ran the official v1.0.0 banking environment, simulator and evaluator on all 97 tasks, using GPT-5.2 low as the customer and GPT-4.1 for the one task with a natural-language scoring criterion. Each task received four independent conversations per condition. BM25 and Gold used the same seeds (54907, 280679, 91421, 806309), a 200-step limit and a 10-error limit. Of the 776 accepted episodes, 504 used OpenRouter for the agent and 272 used DeepSeek's native endpoint. Infrastructure failures were excluded. This reproduces the benchmark protocol with a different agent model and two serving routes [2, 3].
+
+DeepSeek supports web search when its web tool is enabled [4]. Our runner supplied the banking tool schemas. Neither route requested a provider web-search tool, search plugin, or online-model suffix. I checked recorded assistant calls, including the targets of the discoverable-tool wrapper. BM25 issued 4,106 searches against the local banking corpus. Gold issued zero. Neither condition recorded a web-search or URL-fetch call. All 13,804 customer and agent tool calls had matching response IDs. These are benchmark actions. Inference used remote APIs, whose internal network traffic is outside the client trace [2--4].
+
+\subsection{Single-rollout performance and cost}
+\begin{center}\small
+\begin{tabular}{llrrrr}
+\hline Agent & Condition & pass$^1$ & pass$^2$ & pass$^3$ & pass$^4$\\\hline
+GPT-5.2 high [1] & BM25 & 24.48 & 16.49 & 12.63 & 10.31\\
+DeepSeek (ours) & BM25 & 28.35 & 16.67 & 10.57 & 7.22\\
+GPT-5.2 high [1] & Gold & 32.73 & 24.23 & 20.36 & 18.56\\
+DeepSeek (ours) & Gold & 49.74 & 41.92 & 37.89 & 35.05\\\hline
+\end{tabular}\par
+Table 2. Success rates (\%) on the same 97 tasks. Published values are from Table 11.
+\end{center}
+The paper's single-rollout estimate, pass$^1$, uses all four trials. DeepSeek succeeded in 110/388 BM25 episodes and 193/388 Gold episodes. Counting only the first trial of each task gives 25/97 (25.77\%) and 44/97 (45.36\%), respectively. DeepSeek scored 3.87 percentage points above published GPT-5.2 on BM25 pass$^1$, although fewer tasks succeeded four times (7.22\% versus 10.31\%). Gold raised DeepSeek pass$^1$ by 21.39 points. This comparison changes both the timing and the availability of evidence.
+
+\begin{center}\small
+\begin{tabular}{lrrrr}
+\hline Condition & Cached input & Uncached input & Output & Agent USD\\\hline
+BM25 & 281,084,032 & 21,252,668 & 8,619,584 & 9.20\\
+Gold & 73,079,936 & 4,037,015 & 5,834,780 & 4.33\\
+Total & 354,163,968 & 25,289,683 & 14,454,364 & 13.53\\\hline
+\end{tabular}\par
+Table 3. Agent tokens in accepted episodes, repriced at DeepSeek off-peak rates [3, 4].
+\end{center}
+Each million tokens costs \$0.003 for cached input, \$0.15 for uncached input and \$0.60 for output at the quoted rates. Applying them to both routes gives \$13.53 for the agent. Adding the simulator and judge at their recorded \$19.19 gives \$32.72 in total, averaging \$0.0497 per BM25 rollout and \$0.0346 per Gold rollout. All roles used 409,883,963 tokens. Using the actual route for each call gives a separate \$34.86 estimate (OpenRouter charges plus native DeepSeek token estimates). Both totals include scored failures.
+
+\subsection{Three trajectories for Task 006}
+The same customer needs fees and minimum payments at or below 1.5\%, virtual-card management, and eligibility at a score of 540. Below are condensed paraphrases of three independently generated conversations [2, 3]. Tool and database rows summarize recorded events.
+
+\begin{tracecard}{Author reference \enspace GPT-5.2 Terminal · trial 0}{\textcolor{cardpass}{\bfseries Reward 1}}
+\turnline{Customer}{My score is 540. Which cards meet my requirements?}
+\turnline{Tool}{48 local shell calls inspect card terms and eligibility rules.}
+\turnline{Agent}{EcoCard meets your requirements.}
+\turnline{User tool}{Application submitted for EcoCard.}
+\turnline{Database}{EcoCard matches the reference state.}
+\end{tracecard}
+
+\begin{tracecard}{DeepSeek \enspace BM25 · trial 2}{\textcolor{cardpass}{\bfseries Reward 1}}
+\turnline{Customer}{I need virtual cards and low fees. My score is 540.}
+\turnline{Search}{Fees, minimum payment, virtual cards, \textbf{credit score}. Eligibility FAQ 009 ranks ninth.}
+\turnline{Agent}{Crypto-Cash Back requires 660. EcoCard fits your profile.}
+\turnline{User tool}{Application submitted for EcoCard.}
+\turnline{Database}{EcoCard matches the reference state.}
+\end{tracecard}
+
+\begin{tracecard}{DeepSeek \enspace BM25 · trial 0}{\textcolor{cardfail}{\bfseries Reward 0}}
+\turnline{Customer}{My score is 540. Which cards meet my requirements?}
+\turnline{Search}{Fees, minimum payment, virtual cards. Results include payment document 008 and omit eligibility FAQ 009.}
+\turnline{Agent}{Both EcoCard and Crypto-Cash Back work with your score.}
+\turnline{User tool}{Application submitted for Crypto-Cash Back.}
+\turnline{Database}{Expected EcoCard. The submitted card differs.}
+\end{tracecard}
+
+Both DeepSeek trials used one search. Only trial 2 included the customer's credit score as a search criterion and retrieved the threshold. Different seeds and wording make this a hypothesis for the planned experiment.
+
+\section{Future Plan}
+\paragraph{From leads to a supported recommendation.} I will add a short skill to the BM25 agent. Its first search collects candidates and document IDs. Before narrowing or recommending, the agent pairs each material user constraint with supporting evidence. For Task 006, an unresolved credit-score threshold calls for a targeted policy query. For Task 098, an unresolved preference about account type calls for a question to the customer. An optional reviewer can flag an unsupported restriction or unchecked criterion and suggest the next search or question. It intervenes at most once and sees only the dialogue and evidence already retrieved.
+
+\paragraph{Test design.} Compare A (official BM25), B (two-stage skill), C (B plus a targeted reviewer) and D (B plus generic review with the same extra call and token budget). B--D share retrieval limits. Develop prompts on the ten pilot tasks plus 006, 071 and 077. Freeze them before comparing conditions on the other 84 tasks with matched seeds and the same simulator. Aggregate baseline results are already known. Report paired task-level bootstrap intervals for pass$^1$, alongside pass$^4$, search and clarification counts, and cost per episode. On matched dialogue prefixes, check whether the evidence for a stated constraint was present before the recommendation. Comparing C with D tests the contribution of targeted evidence review beyond a generic extra call.
+\section*{References}
+\small
+[1] Q. Shi, A. Zytek, P. Razavi, K. Narasimhan, V. Barres. \href{https://proceedings.mlr.press/v306/shi26ah.html}{τ-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge}. ICML 2026, PMLR 306.\par
+[2] Sierra Research. \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/src/tau2/domains/banking_knowledge/retrieval.py}{Banking retrieval variants}, \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/src/tau2/utils/llm_utils.py}{request tool schemas}, \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/src/tau2/evaluator/evaluator.py}{official evaluator}, \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/data/tau2/domains/banking_knowledge/tasks/task_006.json}{Task 006 specification}, \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/web/leaderboard/public/submissions/gpt-5-2_sierra_2026-02-26/trajectories/gpt-5.2_high_banking_knowledge_gpt-5.2_4trials.json}{GPT-5.2 Terminal traces}. v1.0.0, \texttt{17e07b1}.\par
+[3] Y. Shen. Project baseline materials (2026). \texttt{ds4x/run.py} and \texttt{native\_pool.py} launch trials. \texttt{verify.py} validates seeds and scores. \texttt{proposal\_audit.py} counts tokens and tool calls. The supplement includes \texttt{full-verified.json} and \texttt{task006-traces.json} (all three trajectories).\par
+[4] DeepSeek. \href{https://api-docs.deepseek.com/quick_start/pricing/}{Models and Pricing} and \href{https://api-docs.deepseek.com/guides/web_tools/}{Web Tools}. OpenRouter. \href{https://openrouter.ai/docs/guides/features/plugins/overview}{Plugins and Web Search}. Accessed 15 November 2026.\par
+\end{document}

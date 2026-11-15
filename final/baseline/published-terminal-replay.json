@@ -1,0 +1,25 @@
+{
+  "retrieval": "terminal_use",
+  "agent": "gpt-5.2",
+  "user": "gpt-5.2",
+  "seed": 123,
+  "tasks": 97,
+  "episodes": 388,
+  "successful_episodes": 99,
+  "trials_per_task": 4,
+  "successes_per_task_histogram": {
+    "0": 59,
+    "1": 5,
+    "2": 14,
+    "3": 10,
+    "4": 9
+  },
+  "termination_reasons": {
+    "user_stop": 339,
+    "max_steps": 49
+  },
+  "pass^1_pct": 25.52,
+  "pass^2_pct": 16.84,
+  "pass^3_pct": 11.86,
+  "pass^4_pct": 9.28
+}

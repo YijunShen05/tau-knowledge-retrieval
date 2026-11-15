@@ -1,0 +1,153 @@
+\documentclass{article}
+\usepackage[preprint,nonatbib]{neurips_2025}
+\usepackage{xeCJK}
+\setCJKmainfont{Songti SC}
+\setCJKsansfont{Heiti SC}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{xcolor}
+\definecolor{cardink}{HTML}{193B43}
+\definecolor{cardwash}{HTML}{EFF5F5}
+\definecolor{cardpass}{HTML}{235747}
+\definecolor{cardfail}{HTML}{893D30}
+\newenvironment{tracecard}[2]{\par\addvspace{5pt}\noindent\begin{minipage}{\linewidth}
+  \setlength{\parindent}{0pt}\small
+  \colorbox{cardwash}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\strut\textcolor{cardink}{\bfseries #1}\hfill #2}}\par\smallskip
+}{\end{minipage}\par\addvspace{4pt}}
+\newcommand{\turnline}[2]{\noindent\makebox[.17\linewidth][l]{\textcolor{cardink}{\bfseries #1}}\parbox[t]{.83\linewidth}{#2\strut}\par}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\makeatletter\renewcommand{\@noticestring}{DATS-SHU-200 Data Mining. Final project proposal. November 2026.}\makeatother
+\title{银行客服 Agent 应该何时缩小搜索范围？}
+\author{Yijun Shen\\NYU Shanghai}
+\usepackage{etoolbox}
+\patchcmd{\abstract}{Abstract}{摘要}{}{}
+\begin{document}\maketitle
+\begin{abstract}
+银行政策可以说明哪些产品符合活动条件，但顾客想办哪一种产品，有时要在对话中才能确定。本项目关注首轮检索之后的决策：客服 Agent 什么时候有充分依据缩小搜索范围？我以 $\tau$-Knowledge 的 BM25 Agent 为基线，让首轮检索提供候选产品和线索，再检查下一次查询中的限定词是否有依据。实验将检验这一做法能否提高业务完成率，以及为此需要增加多少次搜索和澄清。
+\end{abstract}
+
+\section{引言}
+Task 098 的顾客想知道哪种账户的推荐奖励最高。Shi 等人 [1] 的图 4 展示了首轮检索后发生的这段对话。
+
+\begin{tracecard}{Task 098 \enspace 开户推荐奖励}{据原论文图 4 简写}
+\turnline{顾客}{推荐朋友开户，哪种账户给的奖励最高？}
+\turnline{知识库}{第 1--3 条是信用卡活动，第 7 条是活期账户推荐政策。}
+\turnline{客服}{我给你介绍几种奖励最高的信用卡。}
+\turnline{顾客}{我想问的是活期账户。}
+\end{tracecard}
+
+第一次搜索已经找到了两个类别。排名给出了产品线索，顾客的偏好在当时仍然未知。
+
+\paragraph{研究问题。} 本项目属于课程的 \emph{Agentic Search and Retrieval} 方向。我研究首轮搜索到下一步决策之间的选择。当顾客的表述同时适用于几个类别时，Agent 应该缩小查询范围、分头查找候选产品，还是向顾客提一个问题？只检索信用卡，可能会把活期账户政策挤出前十名。顾客已经说清产品时再追问，又会白白增加一个回合。在银行场景中，这个选择会影响 Agent 最终替顾客提交哪种产品的推荐申请。
+
+\paragraph{已有方法与拟研究的改进。} Shi 等人 [1] 比较了多种知识库检索接口，并观察到客服会对顾客意图作出缺乏依据的假设。我想检验一个更具体的假设：首轮结果可以提供产品名称和检索词，但在缩小范围前，Agent 应区分限定词源于顾客的表述、政策规定的资格条件，还是仅仅源于靠前的搜索结果。我将比较这种两阶段检索与原始 Agent，并单独测量加入一次范围审核的效果。判断依据是业务成功率、检索次数以及向顾客追问的回合数。
+
+\section{基线方法}
+\subsection{任务与 Agent 可见的信息}
+本项目使用 $\tau$-Knowledge 论文 [1] 的 $\tau$-Banking 环境。代码随 Sierra 的 \texttt{tau2-bench} 仓库发布 [2]。基准包含 97 个任务，固定知识库 $D$ 有 698 份文档，覆盖 21 个类别。每次交互开始时，用户模拟器收到私有场景和条件指令，其中规定何时透露信息或采取行动。设 $s_t$ 为第 $t$ 步的银行数据库状态，$h_t$ 为 Agent 当时可见的对话、已检索文档和工具返回。Agent 可以调用银行工具观察与任务相关的部分状态。模拟用户的私有指令和评分器的目标状态均不对 BM25 Agent 开放。
+
+\begin{center}\small
+\begin{tabular}{@{}lr@{\hspace{1.7em}}lr@{}}
+\hline
+\multicolumn{2}{l}{\textbf{银行知识库}} & \multicolumn{2}{l}{\textbf{任务与交互}}\\
+语料 token 总数 & 194,562 & 任务总数 & 97\\
+文档总数 & 698 & 客服常驻工具数 & 14\\
+每篇文档平均 token 数 & 278.7 & 每题平均所需文档数 & 18.6\\
+知识类别数 & 21 & 每题平均所需工具调用数 & 9.52\\
+可发现工具数 & 51 & 所需工具调用数的最小值 / 最大值 & 1 / 33\\
+\hline
+\multicolumn{4}{l}{\textbf{评估}\quad 采用 pass$^k$ 衡量任务成功的可靠性。}\\
+\hline
+\end{tabular}\par
+表 1. τ-Banking 领域统计，根据 Shi 等人 [1，第 4 页表 1] 重新排版。\\
+语料 token 数按原论文的 \texttt{cl100k\_base} 分词器统计。
+\end{center}
+平均每题需要 18.6 份文档，而 BM25 单次最多返回十份。即使每次命中的文档都相关，一部分任务仍然要跨次检索整合证据。表中的工具调用数描述任务本身的要求，客服实际完成任务时可能调用更多次。
+
+\subsection{官方交互循环中的一次决策}
+给定 $h_t$、系统指令和工具接口，LLM 可以回复顾客或调用工具。向顾客提问可能获得一项尚未说明的偏好。用查询 $q_t$ 调用 \texttt{KB\_search}，则会收到至多十份文档，每份包含编号、标题、得分和正文。Agent 读完后可以继续搜索，也可以执行业务。例如，政策可能同时写明资格条件和可发现工具的函数签名。Agent 通过 \texttt{call\_discoverable\_agent\_tool} 调用该操作，返回结果进入下一步的 $h_{t+1}$。本项目改变的是这个循环中的检索决策，各组共用同一知识库、业务工具和评分器。
+
+\subsection{文档排序、任务得分与 Gold 对照}
+官方 BM25 实现将文档正文和查询转为小写后按空白分词 [2]。设 $f_{w,d}$ 为词 $w$ 在文档 $d$ 中的出现次数，$L_d$ 和 $\bar L$ 分别表示该文档的词数和语料库中每篇文档的平均词数。检索器按下式从高到低排序：
+\[
+ S(q,d)=\sum_{w\in q} I(w)\,
+ \frac{f_{w,d}(k_1+1)}
+ {f_{w,d}+k_1(1-b+bL_d/\bar L)},\qquad k_1=1.5,\quad b=0.75 .
+\]
+其中 $I(w)$ 为 Okapi 实现的逆文档频率权重。同一词在一篇文档中多次出现时，对得分的额外贡献逐渐减小。较少见的产品名称则可能使相应政策进入前十名。查询由 LLM 在交互时生成，基线无需训练模型参数。
+
+官方评分器按每道题指定的条件检查完整轨迹，例如最终数据库状态、必要业务操作或必须向顾客传达的信息。检索到某篇政策本身不会得分。每题运行四次时，$\mathrm{pass}^{1}$ 是先计算各题四次中的成功比例，再对所有题取平均；$\mathrm{pass}^{4}$ 是四次全部成功的题目占比。官方 Gold 对照将任务标注的相关文档直接放入 Agent 的初始策略上下文，并省去检索工具。由此可以观察，提前给出所需材料后，Agent 在理解政策、与顾客交互和执行业务时还会遇到哪些困难。拟加入 BM25 组的审核模块只能读取当前 Agent 已经观察到的证据。
+\subsection{一道可以用数据库核验的参考题}
+Task 006 的顾客要办一张信用卡。外币交易费率和最低还款比例都不能超过 1.5\%，必须支持虚拟卡管理，而且顾客的信用分只有 540。顾客以交易加密货币为业，年收入 95,000 美元，未订阅 Rho-Bank+。申请信用卡的工具由\emph{用户}掌握。客服给出推荐后，模拟用户可以直接提交申请。任务的参考操作是申请 EcoCard，评分器比较最终数据库与参考状态 [2, 3]。顾客的职业让 Crypto-Cash Back 值得一查，但该卡规定最低信用分为 660。读轨迹时可以据此判断，客服是否在推荐前查到并应用了这项资格条件。
+
+\section{基线复现}
+\subsection{实验设置与联网检索核查}
+为控制四次重复实验的成本，我选用 DeepSeek V4.1 Flash 1017 作为客服，开启高推理强度。下文对照的原论文行使用 GPT-5.2 high 客服 [1]。我在官方 v1.0.0 银行环境中运行全部 97 题，沿用官方模拟用户与评分器。用户模型为 GPT-5.2 low，唯一含自然语言判分条件的任务使用 GPT-4.1 裁判。BM25 和 Gold 每题各开四段独立对话，两组使用相同的四个种子（54907、280679、91421、806309），每次上限为 200 步、10 次错误。776 条有效轨迹中，504 条的客服经 OpenRouter 调用，272 条经 DeepSeek 官方接口调用。基础设施失败的尝试已剔除。这是在相同基准协议下更换客服模型和服务路由的复现 [2, 3]。
+
+DeepSeek API 支持显式启用联网搜索 [4]。本次 runner 传入银行工具列表，两条路由均未请求服务商的网页搜索工具、搜索插件或在线模型后缀。我检查了有效轨迹中的工具调用，包括通过通用接口间接调用的工具名。BM25 组共调用 4,106 次本地银行知识库搜索，Gold 组为 0 次。两组均无网页搜索或网页读取调用记录。客服与模拟用户发起的 13,804 次工具调用均能按 ID 与回执逐条匹配。该核查覆盖基准内执行的操作。模型推理使用远端 API，服务商内部的网络流量不在客户端轨迹的观测范围内 [2--4]。
+
+\subsection{单次运行的成功率与推理费用}
+\begin{center}\small
+\begin{tabular}{llrrrr}
+\hline 客服模型 & 条件 & pass$^1$ & pass$^2$ & pass$^3$ & pass$^4$\\\hline
+GPT-5.2 high [1] & BM25 & 24.48 & 16.49 & 12.63 & 10.31\\
+DeepSeek（本实验） & BM25 & 28.35 & 16.67 & 10.57 & 7.22\\
+GPT-5.2 high [1] & Gold & 32.73 & 24.23 & 20.36 & 18.56\\
+DeepSeek（本实验） & Gold & 49.74 & 41.92 & 37.89 & 35.05\\\hline
+\end{tabular}\par
+表 2. 相同 97 道题上的成功率（\%）。原论文数据取自表 11。
+\end{center}
+原论文用四次试验估计单次运行的成功率 pass$^1$。DeepSeek 在 BM25 下成功 110/388 次，Gold 下成功 193/388 次。如果每题严格只取第一条轨迹，两组分别成功 25/97（25.77\%）和 44/97（45.36\%）。相比论文的 GPT-5.2，DeepSeek 在 BM25 下的 pass$^1$ 高 3.87 个百分点，但四次全部成功的题目占比更低（7.22\% 对 10.31\%）。提前提供 Gold 文档后，DeepSeek 的 pass$^1$ 提高 21.39 个百分点。这个对照同时改变了证据的可得性和进入上下文的时机。
+
+\begin{center}\small
+\begin{tabular}{lrrrr}
+\hline 条件 & 输入缓存命中 & 输入缓存未命中 & 输出 & 客服费用（美元）\\\hline
+BM25 & 281,084,032 & 21,252,668 & 8,619,584 & 9.20\\
+Gold & 73,079,936 & 4,037,015 & 5,834,780 & 4.33\\
+合计 & 354,163,968 & 25,289,683 & 14,454,364 & 13.53\\\hline
+\end{tabular}\par
+表 3. 两组有效轨迹的客服 token 用量，统一按 DeepSeek 低峰价折算 [3, 4]。
+\end{center}
+每百万 token 的 DeepSeek 低峰价为输入命中 0.003 美元、输入未命中 0.15 美元、输出 0.60 美元。按此给两条路由统一计价，客服共 13.53 美元，加上模拟用户与裁判回执的 19.19 美元，全实验约 32.72 美元。BM25 和 Gold 每条完整轨迹平均分别为 0.0497 和 0.0346 美元。三个角色共用 409,883,963 个 token。按实际服务路由核算，OpenRouter 回执金额加上 DeepSeek 直连用量估算共 34.86 美元。以上两种口径都包含得到官方零分的有效轨迹。
+
+\subsection{Task 006 的三条轨迹}
+三条轨迹的任务条件相同。顾客信用分为 540，外币交易费率和最低还款比例均不能超过 1.5\%，并且需要虚拟卡。以下按各自实际对话简写；工具与数据库两行概括对应的执行记录 [2, 3]。
+
+\begin{tracecard}{作者参考 \enspace GPT-5.2 Terminal · trial 0}{\textcolor{cardpass}{\bfseries 得 1 分}}
+\turnline{顾客}{我信用分是 540，有符合这些条件的卡吗？}
+\turnline{工具}{48 次本地 shell 调用，查阅卡片条款与申请资格。}
+\turnline{客服}{EcoCard 符合你的要求。}
+\turnline{用户工具}{已提交 EcoCard 申请。}
+\turnline{数据库}{记录为 EcoCard，与参考状态一致。}
+\end{tracecard}
+
+\begin{tracecard}{DeepSeek \enspace BM25 · trial 2}{\textcolor{cardpass}{\bfseries 得 1 分}}
+\turnline{顾客}{我需要虚拟卡、低费率，信用分是 540。}
+\turnline{检索}{费用、最低还款、虚拟卡、\textbf{信用分}。资格 FAQ 009 排第九。}
+\turnline{客服}{Crypto-Cash Back 要求至少 660 分。EcoCard 适合你。}
+\turnline{用户工具}{已提交 EcoCard 申请。}
+\turnline{数据库}{记录为 EcoCard，与参考状态一致。}
+\end{tracecard}
+
+\begin{tracecard}{DeepSeek \enspace BM25 · trial 0}{\textcolor{cardfail}{\bfseries 得 0 分}}
+\turnline{顾客}{我的信用分是 540，哪些卡符合条件？}
+\turnline{检索}{费用、最低还款、虚拟卡。命中还款文档 008，未返回资格 FAQ 009。}
+\turnline{客服}{EcoCard 和 Crypto-Cash Back 都适合你的信用分。}
+\turnline{用户工具}{已提交 Crypto-Cash Back 申请。}
+\turnline{数据库}{参考卡种是 EcoCard，本次提交的卡种不同。}
+\end{tracecard}
+
+两次 DeepSeek 运行都只查了一次。trial 2 把顾客已给出的信用分带入查询，找到了门槛。两次运行的种子和措辞也有差异，下一步要用配对实验检验这条线索。
+
+\section{后续实验计划}
+\paragraph{从候选线索到有依据的推荐。} 我会给 BM25 Agent 加入一段简短的检索指令。第一轮收集候选及文档编号。缩小范围或给出推荐前，将每项会改变决定的用户条件与文档证据对应起来。Task 006 缺的是银行规定，下一步可查“Crypto-Cash Back 是否接受 540 分”；Task 098 缺的是顾客想开的账户类别，此时追问顾客才有价值。可选的审核 Agent 每段对话至多介入一次，仅凭对话和已检索证据，指出未经证实的条件，并建议下一条查询或澄清问题。
+
+\paragraph{如何检验改进。} A 组使用官方 BM25，B 组增加两阶段检索，C 组在 B 上加入定向审核，D 组给 B 同样的一次模型调用和 token 预算进行通用复查。B 至 D 共用检索上限。用已试跑的十道 pilot 题及 006、071、077 开发方法，冻结提示词后，在其余 84 题上使用配对种子和同一模拟用户比较四组。已有全量基线汇总可见，因此这是在固定题集上对新方法的前瞻比较。主指标报告 pass$^1$ 和按题配对的 bootstrap 区间，同时报告 pass$^4$、检索次数、澄清回合与每条轨迹费用。在相同对话前缀上，再核对推荐前能否检索到显式约束的依据。C 与 D 的差异衡量定向核查证据比通用复查多带来多少收益。
+\section*{参考文献与复现材料}
+\small
+[1] Q. Shi, A. Zytek, P. Razavi, K. Narasimhan, V. Barres. \href{https://proceedings.mlr.press/v306/shi26ah.html}{τ-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge}. ICML 2026, PMLR 306.\par
+[2] Sierra Research. \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/src/tau2/domains/banking_knowledge/retrieval.py}{Banking retrieval variants}, \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/src/tau2/utils/llm_utils.py}{request tool schemas}, \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/src/tau2/evaluator/evaluator.py}{official evaluator}, \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/data/tau2/domains/banking_knowledge/tasks/task_006.json}{Task 006 specification}, \href{https://github.com/sierra-research/tau2-bench/blob/17e07b1da2bbc0cadfddeea36412686e0604127b/web/leaderboard/public/submissions/gpt-5-2_sierra_2026-02-26/trajectories/gpt-5.2_high_banking_knowledge_gpt-5.2_4trials.json}{GPT-5.2 Terminal traces}. v1.0.0, \texttt{17e07b1}.\par
+[3] 沈义钧，项目基线材料（2026）。\texttt{ds4x/run.py} 和 \texttt{native\_pool.py} 启动试验；\texttt{verify.py} 核验种子与成绩；\texttt{proposal\_audit.py} 汇总 token 与工具调用。随附源码包提供 \texttt{full-verified.json}（逐题成绩）和 \texttt{task006-traces.json}（三条完整轨迹）。\par
+[4] DeepSeek. \href{https://api-docs.deepseek.com/quick_start/pricing/}{Models and Pricing} and \href{https://api-docs.deepseek.com/guides/web_tools/}{Web Tools}. OpenRouter. \href{https://openrouter.ai/docs/guides/features/plugins/overview}{Plugins and Web Search}. Accessed 15 November 2026.\par
+\end{document}

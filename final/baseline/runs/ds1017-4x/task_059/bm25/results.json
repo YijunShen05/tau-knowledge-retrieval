@@ -335,11 +335,10 @@
             "prompt_tokens": 1570
           },
           "raw_data": {
-            "id": "gen-1794744209-7AJmzS6c7VL3KQy9bHJg",
+            "id": "request-7d6846114755e61ec267e39d",
             "created": 1794744209,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -437,11 +436,10 @@
             "prompt_tokens": 3689
           },
           "raw_data": {
-            "id": "gen-1794744211-Y2HO8zTZv5JYa12c71uq",
+            "id": "request-4e2f18c7afc8c3766654db1d",
             "created": 1794744211,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -578,11 +576,10 @@
             "prompt_tokens": 10604
           },
           "raw_data": {
-            "id": "gen-1794744213-uA2EdidK3KouHq6x56jI",
+            "id": "request-3fd31c92358902ade17fd5d2",
             "created": 1794744213,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -719,11 +716,10 @@
             "prompt_tokens": 18853
           },
           "raw_data": {
-            "id": "gen-1794744215-bwsY9pdRPbqbhB4F7TaP",
+            "id": "request-3b826c3beac005914d4a105f",
             "created": 1794744215,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -876,11 +872,10 @@
             "prompt_tokens": 25897
           },
           "raw_data": {
-            "id": "gen-1794744218-q7wBCFIk2FNaoWc9JA40",
+            "id": "request-0da2a384d8e83cd5ad1e490f",
             "created": 1794744218,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1069,11 +1064,10 @@
             "prompt_tokens": 43776
           },
           "raw_data": {
-            "id": "gen-1794744226-XgGsRP3cCSlTXyPL5wZb",
+            "id": "request-f128605b107d9b66e85dd4cb",
             "created": 1794744226,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1262,11 +1256,10 @@
             "prompt_tokens": 57148
           },
           "raw_data": {
-            "id": "gen-1794744237-xAkbMMxodxBO7s4nE64j",
+            "id": "request-2e9237f4e0d71e16cf071c48",
             "created": 1794744237,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1455,11 +1448,10 @@
             "prompt_tokens": 71662
           },
           "raw_data": {
-            "id": "gen-1794744246-WmRB8Nlz1J6X78B3RT82",
+            "id": "request-6ed5b8d01f9767fc81eacc0e",
             "created": 1794744246,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1648,11 +1640,10 @@
             "prompt_tokens": 83058
           },
           "raw_data": {
-            "id": "gen-1794744260-Fw4aloWZiV46BMzRiZ9X",
+            "id": "request-fd681e3f392f04c304f7a15b",
             "created": 1794744260,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1808,11 +1799,10 @@
             "prompt_tokens": 96487
           },
           "raw_data": {
-            "id": "gen-1794744273-gxnwpfSKLW78KxyNZkMs",
+            "id": "request-b26d848f654da225bb0e1aca",
             "created": 1794744273,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -1907,11 +1897,10 @@
             "prompt_tokens": 2355
           },
           "raw_data": {
-            "id": "gen-1794744309-beAOvS0v6eh3X8PGQMXJ",
+            "id": "request-8f8d90be8f43838cb33cf88b",
             "created": 1794744309,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2003,11 +1992,10 @@
             "prompt_tokens": 2440
           },
           "raw_data": {
-            "id": "gen-1794744310-xBRBkYH2RFzB4tm7cAo9",
+            "id": "request-4f67a314c54ffdbedfd13732",
             "created": 1794744310,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -2097,11 +2085,10 @@
             "prompt_tokens": 97247
           },
           "raw_data": {
-            "id": "gen-1794744311-TmeEuxGPmVDSJnrH5x3p",
+            "id": "request-90ef9874c1d230ded3e89e12",
             "created": 1794744311,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2221,11 +2208,10 @@
             "prompt_tokens": 107422
           },
           "raw_data": {
-            "id": "gen-1794744315-Ms7ppbZWnFwddh8FH0Yq",
+            "id": "request-009ed4772cb96511f6303627",
             "created": 1794744315,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -2308,11 +2294,10 @@
             "prompt_tokens": 2667
           },
           "raw_data": {
-            "id": "gen-1794744324-LEXuZ1W6pvKu1GWcuy2L",
+            "id": "request-f8533fb7ceef4333c64697d5",
             "created": 1794744324,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -2394,11 +2379,10 @@
             "prompt_tokens": 107739
           },
           "raw_data": {
-            "id": "gen-1794744329-whkdgyQoXxPMCaWtG7sL",
+            "id": "request-9ee8cd67cfbd4e9f564573c6",
             "created": 1794744329,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2507,11 +2491,10 @@
             "prompt_tokens": 107904
           },
           "raw_data": {
-            "id": "gen-1794744331-wKhn80Hh8zO8Y5gaL8zz",
+            "id": "request-c3e5f97d687c26bc8ac4b159",
             "created": 1794744331,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2628,11 +2611,10 @@
             "prompt_tokens": 107977
           },
           "raw_data": {
-            "id": "gen-1794744332-YwdcT77aOYXLK63NqP4m",
+            "id": "request-3064b084c83b048bea992de2",
             "created": 1794744333,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2751,11 +2733,10 @@
             "prompt_tokens": 108222
           },
           "raw_data": {
-            "id": "gen-1794744335-KYc4Obxc4JIcMa8Fj4ks",
+            "id": "request-84276fb233470b6fd223afa5",
             "created": 1794744335,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2885,11 +2866,10 @@
             "prompt_tokens": 108657
           },
           "raw_data": {
-            "id": "gen-1794744337-mgnTYN1QT7ynMFg1NXJ8",
+            "id": "request-d5ec48e87d5e40965f41d989",
             "created": 1794744337,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2991,11 +2971,10 @@
             "prompt_tokens": 108899
           },
           "raw_data": {
-            "id": "gen-1794744340-a8hhHtd2E9TRtrQU4IpB",
+            "id": "request-7616e03f3682c31d0db662fd",
             "created": 1794744340,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3097,11 +3076,10 @@
             "prompt_tokens": 109158
           },
           "raw_data": {
-            "id": "gen-1794744344-q68F8mEwU4mLTuzxFlRg",
+            "id": "request-d6c55f4504319e8d5223c6ad",
             "created": 1794744344,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -3184,11 +3162,10 @@
             "prompt_tokens": 3168
           },
           "raw_data": {
-            "id": "gen-1794744347-mvrrLODpcaXLq6wsTjJd",
+            "id": "request-cbd442df023c524963adc0cc",
             "created": 1794744347,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -3441,11 +3418,10 @@
             "prompt_tokens": 1570
           },
           "raw_data": {
-            "id": "gen-1794744209-FXrGoE29xCh2RxQAHDiE",
+            "id": "request-d0824c0cfda5fcaeabeacef4",
             "created": 1794744209,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -3543,11 +3519,10 @@
             "prompt_tokens": 3690
           },
           "raw_data": {
-            "id": "gen-1794744211-rKSepnTE4Bow3kTVwxR4",
+            "id": "request-22eb4b76479c10d2887c6dee",
             "created": 1794744211,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3692,11 +3667,10 @@
             "prompt_tokens": 9806
           },
           "raw_data": {
-            "id": "gen-1794744213-I2Cj8zWjRkhJOd08VC8R",
+            "id": "request-028f1362dbf7008785868a78",
             "created": 1794744213,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3867,11 +3841,10 @@
             "prompt_tokens": 21356
           },
           "raw_data": {
-            "id": "gen-1794744216-N3joPpFydQGO4pYfjb8x",
+            "id": "request-0445a2872380a62f3be6f318",
             "created": 1794744216,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4068,11 +4041,10 @@
             "prompt_tokens": 38586
           },
           "raw_data": {
-            "id": "gen-1794744226-rADiLhLfKlwjNaPQsoQs",
+            "id": "request-aef7029846ee01c0cb9a88ff",
             "created": 1794744226,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4279,11 +4251,10 @@
             "prompt_tokens": 57263
           },
           "raw_data": {
-            "id": "gen-1794744259-NgGSPqfNbSzhTB308ASA",
+            "id": "request-c8df682ca7a78cdf49ac51af",
             "created": 1794744259,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4472,11 +4443,10 @@
             "prompt_tokens": 73214
           },
           "raw_data": {
-            "id": "gen-1794744263-WBjIhL43BnYDsUxnjZOm",
+            "id": "request-60b3c1a7257cd2a2124be040",
             "created": 1794744263,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4657,11 +4627,10 @@
             "prompt_tokens": 87749
           },
           "raw_data": {
-            "id": "gen-1794744281-1ycrXuGqZIFJaUSmu1Ze",
+            "id": "request-307347ced804419751226e37",
             "created": 1794744281,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4816,11 +4785,10 @@
             "prompt_tokens": 99786
           },
           "raw_data": {
-            "id": "gen-1794744300-gU3yQ8cGjRxQvCQvpjBL",
+            "id": "request-539c9fd654afe338e0e63bbb",
             "created": 1794744300,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4940,11 +4908,10 @@
             "prompt_tokens": 108900
           },
           "raw_data": {
-            "id": "gen-1794744320-QQ3ncCwTYIV9BuUysJW6",
+            "id": "request-ea96b097e4ddce20467557c6",
             "created": 1794744320,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -5027,11 +4994,10 @@
             "prompt_tokens": 2287
           },
           "raw_data": {
-            "id": "gen-1794744349-D9q4HvxWp0ptFy8DorxA",
+            "id": "request-bda025d75a218667649bd278",
             "created": 1794744349,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -5112,11 +5078,10 @@
             "prompt_tokens": 109643
           },
           "raw_data": {
-            "id": "gen-1794744351-vVpRfYugn2pOwOeX6ho9",
+            "id": "request-df5be66db79de586b5d98bc7",
             "created": 1794744351,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -5211,11 +5176,10 @@
             "prompt_tokens": 2818
           },
           "raw_data": {
-            "id": "gen-1794744357-C27cp2aksosFKr6pGFKr",
+            "id": "request-40cb61cada5728a17f3cec81",
             "created": 1794744357,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -5307,11 +5271,10 @@
             "prompt_tokens": 2903
           },
           "raw_data": {
-            "id": "gen-1794744358-cj1wZiVdiKDoj00K4j3r",
+            "id": "request-691ecc4e3ce36b8f556eee7c",
             "created": 1794744358,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -5401,11 +5364,10 @@
             "prompt_tokens": 110143
           },
           "raw_data": {
-            "id": "gen-1794744360-9j13x98iAbJ0gmJOg6ic",
+            "id": "request-c470eb8b95b9f46c43eede7a",
             "created": 1794744360,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -5525,11 +5487,10 @@
             "prompt_tokens": 120881
           },
           "raw_data": {
-            "id": "gen-1794744364-7kTw27zr5Ic5sb4oC221",
+            "id": "request-f51a3808919f99363f3ef896",
             "created": 1794744364,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -5612,11 +5573,10 @@
             "prompt_tokens": 3077
           },
           "raw_data": {
-            "id": "gen-1794744368-in8ZyMvTQDpLsBaxwrWH",
+            "id": "request-23d36093a0e9263959591b89",
             "created": 1794744368,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -5698,11 +5658,10 @@
             "prompt_tokens": 121036
           },
           "raw_data": {
-            "id": "gen-1794744370-hx1FA8IDdqKEGzLM5xEZ",
+            "id": "request-1ea490479b4d8618a73a0986",
             "created": 1794744370,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -5811,11 +5770,10 @@
             "prompt_tokens": 121191
           },
           "raw_data": {
-            "id": "gen-1794744374-shPaqkYwLWOr8s7QpCzs",
+            "id": "request-79fcf7c1d8de99a977557395",
             "created": 1794744374,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -5932,11 +5890,10 @@
             "prompt_tokens": 121243
           },
           "raw_data": {
-            "id": "gen-1794744376-sUddQ2VuF4rbDG7bkNu2",
+            "id": "request-d6f7785992c9c02da29b7361",
             "created": 1794744376,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6047,11 +6004,10 @@
             "prompt_tokens": 121488
           },
           "raw_data": {
-            "id": "gen-1794744379-V9kJ9ABfBhMib6nV2YfX",
+            "id": "request-a653589d6eac11c91aa6dfaf",
             "created": 1794744379,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6163,11 +6119,10 @@
             "prompt_tokens": 121750
           },
           "raw_data": {
-            "id": "gen-1794744388-dDffylrGm8JxlBO1vzER",
+            "id": "request-ed08d2e0f3e347d3cb94f891",
             "created": 1794744388,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6269,11 +6224,10 @@
             "prompt_tokens": 121940
           },
           "raw_data": {
-            "id": "gen-1794744391-RUcbTkjeyHfz9x8BmXNs",
+            "id": "request-08a3eec19c51ea2a31936164",
             "created": 1794744391,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -6356,11 +6310,10 @@
             "prompt_tokens": 3316
           },
           "raw_data": {
-            "id": "gen-1794744395-0EHZGAzstijrR16ATm9H",
+            "id": "request-fae85a732883aa8b557b01d1",
             "created": 1794744395,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -6613,11 +6566,10 @@
             "prompt_tokens": 1570
           },
           "raw_data": {
-            "id": "gen-1794744209-jtmuD8ThKRuLmiKIw78q",
+            "id": "request-48308632038ac32a87bc05b5",
             "created": 1794744209,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -6715,11 +6667,10 @@
             "prompt_tokens": 3689
           },
           "raw_data": {
-            "id": "gen-1794744211-kj5wITmnbhiyvLItaSSf",
+            "id": "request-1b1049ca22bdaf1304d5b2ce",
             "created": 1794744211,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6864,11 +6815,10 @@
             "prompt_tokens": 10814
           },
           "raw_data": {
-            "id": "gen-1794744213-kcEvY0EvTLpO9VEe9QtH",
+            "id": "request-dadd1277a5ab8ea1266d9cf0",
             "created": 1794744213,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7039,11 +6989,10 @@
             "prompt_tokens": 21940
           },
           "raw_data": {
-            "id": "gen-1794744216-XsVeQuXrta9sv74B7VEn",
+            "id": "request-ea28becb1e8436ee437fa5de",
             "created": 1794744216,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7216,11 +7165,10 @@
             "prompt_tokens": 39519
           },
           "raw_data": {
-            "id": "gen-1794744220-9f2SVL6cGW2LaYbXynkZ",
+            "id": "request-0e6f5d5d737bbe59bd4e75c7",
             "created": 1794744220,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7373,11 +7321,10 @@
             "prompt_tokens": 48499
           },
           "raw_data": {
-            "id": "gen-1794744226-OZNgeZqn8VGmSWmirxfq",
+            "id": "request-12b24e262fa1b9d94e5e1106",
             "created": 1794744226,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7566,11 +7513,10 @@
             "prompt_tokens": 63488
           },
           "raw_data": {
-            "id": "gen-1794744248-b6DnPFff6nRm1U9KPYyP",
+            "id": "request-086f0e77c74cd87774b17cdb",
             "created": 1794744248,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7759,11 +7705,10 @@
             "prompt_tokens": 79516
           },
           "raw_data": {
-            "id": "gen-1794744265-zrp5yhCo1RJw2FOftVzZ",
+            "id": "request-3c511dc0b181309d174e2d39",
             "created": 1794744265,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7952,11 +7897,10 @@
             "prompt_tokens": 93095
           },
           "raw_data": {
-            "id": "gen-1794744274-5zwHHNvcLg0foRFtr1i4",
+            "id": "request-cf0f71c36aac7d9e337dab0e",
             "created": 1794744274,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -8145,11 +8089,10 @@
             "prompt_tokens": 107045
           },
           "raw_data": {
-            "id": "gen-1794744325-Iq8oYS3yGcR3enalcRpt",
+            "id": "request-86163051de3c3695ad05d646",
             "created": 1794744325,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -8305,11 +8248,10 @@
             "prompt_tokens": 121083
           },
           "raw_data": {
-            "id": "gen-1794744342-moiySzsRj4OOvvquhcNp",
+            "id": "request-e65ae16079807a4435445f43",
             "created": 1794744342,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -8404,11 +8346,10 @@
             "prompt_tokens": 2335
           },
           "raw_data": {
-            "id": "gen-1794744375-d83rNf38XD0inEMdpuUX",
+            "id": "request-249df5b456a2987534b5ada9",
             "created": 1794744375,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -8516,11 +8457,10 @@
             "prompt_tokens": 2420
           },
           "raw_data": {
-            "id": "gen-1794744378-rwlOHtVNFOoZcx5akc9Q",
+            "id": "request-e989f0afd9ec4faa50e4be8a",
             "created": 1794744378,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -8610,11 +8550,10 @@
             "prompt_tokens": 121859
           },
           "raw_data": {
-            "id": "gen-1794744381-Xa1xKnAar94rEXPpjYSS",
+            "id": "request-9163877b96c4f2445fae09b1",
             "created": 1794744381,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -8734,11 +8673,10 @@
             "prompt_tokens": 133658
           },
           "raw_data": {
-            "id": "gen-1794744386-PsFrFUZhcDXC3LkcIy4A",
+            "id": "request-4594b86210dc512fe674ba62",
             "created": 1794744386,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -8821,11 +8759,10 @@
             "prompt_tokens": 2597
           },
           "raw_data": {
-            "id": "gen-1794744392-lHOnnGoogMK1IMtcMSEa",
+            "id": "request-9729900286f80b702665b860",
             "created": 1794744392,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -8907,11 +8844,10 @@
             "prompt_tokens": 133802
           },
           "raw_data": {
-            "id": "gen-1794744396-eP0zSPENIrYJjGidGTDf",
+            "id": "request-50f44af3585b6e0c3e2a0ea3",
             "created": 1794744396,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9013,11 +8949,10 @@
             "prompt_tokens": 133957
           },
           "raw_data": {
-            "id": "gen-1794744397-mY7ukYmpYwQrtDsi7opj",
+            "id": "request-3a9942c0b9b98ddc7580473c",
             "created": 1794744397,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -9100,11 +9035,10 @@
             "prompt_tokens": 2716
           },
           "raw_data": {
-            "id": "gen-1794744402-GD5DB1WxERxPQkblRSM0",
+            "id": "request-9985630035c09c867b9cef03",
             "created": 1794744402,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -9184,11 +9118,10 @@
             "prompt_tokens": 134061
           },
           "raw_data": {
-            "id": "gen-1794744405-q2Us7KikxYwlBuIzRPFR",
+            "id": "request-e765c9889884d74b1faca3c0",
             "created": 1794744405,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9305,11 +9238,10 @@
             "prompt_tokens": 134138
           },
           "raw_data": {
-            "id": "gen-1794744409-zXFjmVgaAusgNBFPcm9y",
+            "id": "request-d92b9b3f66326cebb5961fe7",
             "created": 1794744409,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9420,11 +9352,10 @@
             "prompt_tokens": 134383
           },
           "raw_data": {
-            "id": "gen-1794744411-dqGW8S5sfixH8NX67LBn",
+            "id": "request-f7a198fb9e1c458c0e144e0e",
             "created": 1794744411,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9536,11 +9467,10 @@
             "prompt_tokens": 134612
           },
           "raw_data": {
-            "id": "gen-1794744415-lbIrh4tJpMc9FA77Nrgr",
+            "id": "request-beab2fa1c21314aa61652f95",
             "created": 1794744415,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9641,11 +9571,10 @@
             "prompt_tokens": 134854
           },
           "raw_data": {
-            "id": "gen-1794744417-PHwgqKkBPnnyFHpxaRr3",
+            "id": "request-51b8b4552a5eb2439aae9213",
             "created": 1794744417,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9757,11 +9686,10 @@
             "prompt_tokens": 135164
           },
           "raw_data": {
-            "id": "gen-1794744421-RLBuwAwjxtvvp86xmPwp",
+            "id": "request-0559e24559e9a43707c29e05",
             "created": 1794744421,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9853,11 +9781,10 @@
             "prompt_tokens": 135352
           },
           "raw_data": {
-            "id": "gen-1794744423-WMNxYluHZIVkZqQpFfi6",
+            "id": "request-8b578bfea87f72420a97f21d",
             "created": 1794744423,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -9940,11 +9867,10 @@
             "prompt_tokens": 3122
           },
           "raw_data": {
-            "id": "gen-1794744428-6GFJD2h6SfDEYxetaAah",
+            "id": "request-ea3caa34988f1938c8124951",
             "created": 1794744428,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -10197,11 +10123,10 @@
             "prompt_tokens": 1570
           },
           "raw_data": {
-            "id": "gen-1794744209-AKmw4c9OMpspOh2Th4dv",
+            "id": "request-87f3899a22c93825b6c2c599",
             "created": 1794744209,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -10299,11 +10224,10 @@
             "prompt_tokens": 3689
           },
           "raw_data": {
-            "id": "gen-1794744211-tQOngyOPiekrM64kQ67b",
+            "id": "request-5945c56880122bea09f30d86",
             "created": 1794744211,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10448,11 +10372,10 @@
             "prompt_tokens": 10478
           },
           "raw_data": {
-            "id": "gen-1794744213-uDd1Ab9wr7UTVabEusXj",
+            "id": "request-068c36a7c8883ec45cdb80e0",
             "created": 1794744213,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10607,11 +10530,10 @@
             "prompt_tokens": 23169
           },
           "raw_data": {
-            "id": "gen-1794744216-PSlbyM2t7NgGlpLhYHjF",
+            "id": "request-a58e6b4b82d69d73e31d238e",
             "created": 1794744216,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10756,11 +10678,10 @@
             "prompt_tokens": 31070
           },
           "raw_data": {
-            "id": "gen-1794744220-J9Oqozymcfxt4dZregaD",
+            "id": "request-d985f861f014bf4ca48ee1e6",
             "created": 1794744220,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10923,11 +10844,10 @@
             "prompt_tokens": 45737
           },
           "raw_data": {
-            "id": "gen-1794744225-SPyr0GtljOFUbXdKAigG",
+            "id": "request-40f1cbaeb1b401b9cc99e47d",
             "created": 1794744225,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11090,11 +11010,10 @@
             "prompt_tokens": 58565
           },
           "raw_data": {
-            "id": "gen-1794744229-6pHlqHXZtnFHNSld0Ewt",
+            "id": "request-7d73bfebe1a972a74ad1beb9",
             "created": 1794744229,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11257,11 +11176,10 @@
             "prompt_tokens": 69371
           },
           "raw_data": {
-            "id": "gen-1794744236-pbGvdy40YlvUVuyNLiEB",
+            "id": "request-de47be6e7205f68e29759068",
             "created": 1794744236,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11424,11 +11342,10 @@
             "prompt_tokens": 83104
           },
           "raw_data": {
-            "id": "gen-1794744256-WdLUMoXsJlWRb81gzVT9",
+            "id": "request-115e7eb2cec21aacd415a36a",
             "created": 1794744256,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11583,11 +11500,10 @@
             "prompt_tokens": 95175
           },
           "raw_data": {
-            "id": "gen-1794744260-carjBwbkzTBu6W1hAnQP",
+            "id": "request-cc198beb7dea07b12d5bd017",
             "created": 1794744260,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11724,11 +11640,10 @@
             "prompt_tokens": 101955
           },
           "raw_data": {
-            "id": "gen-1794744292-4R1QmVBbImNUxXoT8Wxx",
+            "id": "request-7dbe7248eca4cd436cb5b5a5",
             "created": 1794744292,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11865,11 +11780,10 @@
             "prompt_tokens": 108198
           },
           "raw_data": {
-            "id": "gen-1794744316-TQMB2Y7SjTTv9fRbYeHJ",
+            "id": "request-b9409f20c8c3030e0f2ccb15",
             "created": 1794744316,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11989,11 +11903,10 @@
             "prompt_tokens": 117574
           },
           "raw_data": {
-            "id": "gen-1794744320-iybnfECZIzcz6CkrmITs",
+            "id": "request-b162a8294789c3d182eaa7e1",
             "created": 1794744320,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -12076,11 +11989,10 @@
             "prompt_tokens": 2280
           },
           "raw_data": {
-            "id": "gen-1794744353-cCE2ljgLRtRFkvruLxdY",
+            "id": "request-710c511fe67b93ed93d63144",
             "created": 1794744353,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -12194,11 +12106,10 @@
             "prompt_tokens": 118469
           },
           "raw_data": {
-            "id": "gen-1794744359-9hXqIqrUh5VS0XguL9ME",
+            "id": "request-f0cd110f802bb401f5b5ee27",
             "created": 1794744359,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -12361,11 +12272,10 @@
             "prompt_tokens": 130323
           },
           "raw_data": {
-            "id": "gen-1794744362-p0oFzNHJjOZ2WD8piMjf",
+            "id": "request-55ecf508da4c86bf76692224",
             "created": 1794744362,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -12520,11 +12430,10 @@
             "prompt_tokens": 140817
           },
           "raw_data": {
-            "id": "gen-1794744372-rwzp3v5YUQab3gMZKJZc",
+            "id": "request-708adaacf1278ead931bf17d",
             "created": 1794744372,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -12644,11 +12553,10 @@
             "prompt_tokens": 147225
           },
           "raw_data": {
-            "id": "gen-1794744391-Sdu2xfYMgqYUwyFafBCQ",
+            "id": "request-d54c00408788804b85ccd12d",
             "created": 1794744391,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -12743,11 +12651,10 @@
             "prompt_tokens": 3455
           },
           "raw_data": {
-            "id": "gen-1794744409-s8ixOV7r5y3d8BKsPrlA",
+            "id": "request-87d21771d03d865aa4088144",
             "created": 1794744409,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -12847,11 +12754,10 @@
             "prompt_tokens": 3540
           },
           "raw_data": {
-            "id": "gen-1794744412-bEKI8SjvQuPqqJOxYQaN",
+            "id": "request-df8add2e9c86adf20e580920",
             "created": 1794744412,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -12941,11 +12847,10 @@
             "prompt_tokens": 148224
           },
           "raw_data": {
-            "id": "gen-1794744415-21IMugN3e15XaQ1n1xOp",
+            "id": "request-1c156f1a4dd769881e3b75b7",
             "created": 1794744415,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -13065,11 +12970,10 @@
             "prompt_tokens": 158604
           },
           "raw_data": {
-            "id": "gen-1794744419-SFEzK5SkrzSuq3tIk9r0",
+            "id": "request-1b1f4ba336319ed059ecf401",
             "created": 1794744419,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -13152,11 +13056,10 @@
             "prompt_tokens": 3758
           },
           "raw_data": {
-            "id": "gen-1794744425-fR6JLmhURgu4TyvyqsdO",
+            "id": "request-7fd5187481493d816e48f3c3",
             "created": 1794744425,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -13238,11 +13141,10 @@
             "prompt_tokens": 158830
           },
           "raw_data": {
-            "id": "gen-1794744428-G8Cq6RHZT4GhlSRBKybz",
+            "id": "request-af6ec536d722675f859cb79b",
             "created": 1794744428,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -13351,11 +13253,10 @@
             "prompt_tokens": 159000
           },
           "raw_data": {
-            "id": "gen-1794744431-BfDQaFKFsNxWy3RFXaJ8",
+            "id": "request-5e1746416571590e074009f6",
             "created": 1794744431,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -13472,11 +13373,10 @@
             "prompt_tokens": 159078
           },
           "raw_data": {
-            "id": "gen-1794744433-4XDlt6aQpYSzC6YeER68",
+            "id": "request-2045ff4533a8d5a76b072cd2",
             "created": 1794744433,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -13587,11 +13487,10 @@
             "prompt_tokens": 159323
           },
           "raw_data": {
-            "id": "gen-1794744436-MWRcY8UkHDdxRI1XYUQ6",
+            "id": "request-181ffd5cbd3d0ad6cde387b3",
             "created": 1794744436,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -13703,11 +13602,10 @@
             "prompt_tokens": 159572
           },
           "raw_data": {
-            "id": "gen-1794744443-5mXgfAfotmPbTPetSq6v",
+            "id": "request-80d898329775871b27bf59d3",
             "created": 1794744443,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -13818,11 +13716,10 @@
             "prompt_tokens": 159814
           },
           "raw_data": {
-            "id": "gen-1794744446-qBvOSPgzzUpwzODb5GiD",
+            "id": "request-2fe350b488e7dd115b85daf9",
             "created": 1794744446,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -13934,11 +13831,10 @@
             "prompt_tokens": 160121
           },
           "raw_data": {
-            "id": "gen-1794744454-Br3WtDrkYDRLPvl7w1GL",
+            "id": "request-e6dc5e81fc003e26735f3edb",
             "created": 1794744454,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -14030,11 +13926,10 @@
             "prompt_tokens": 160311
           },
           "raw_data": {
-            "id": "gen-1794744460-ZbiTTr0TGjkhWl8bJb8R",
+            "id": "request-0400507402a9fabfaa3f3ee0",
             "created": 1794744460,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -14117,11 +14012,10 @@
             "prompt_tokens": 4016
           },
           "raw_data": {
-            "id": "gen-1794744462-thdseJIyqrUy55AN6YEv",
+            "id": "request-f01846d1869db04b32bd93e3",
             "created": 1794744462,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -14194,11 +14088,10 @@
             "prompt_tokens": 160561
           },
           "raw_data": {
-            "id": "gen-1794744465-7qrtvx4gGOXjmGOeGSLm",
+            "id": "request-8d2730ced7a6c43e0a323068",
             "created": 1794744465,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -14281,11 +14174,10 @@
             "prompt_tokens": 4294
           },
           "raw_data": {
-            "id": "gen-1794744468-iyzccA6U9yco9YSihLjZ",
+            "id": "request-9cf69c63fb913a2ebd1daa5e",
             "created": 1794744468,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",

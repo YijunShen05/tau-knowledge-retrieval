@@ -1,1 +1,526 @@
-{"task_001": {"bm25": {"rewards": [1.0, 0.0, 1.0, 1.0], "pass_k": {"1": 0.75, "2": 0.5, "3": 0.25, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.0349888, "deepseek/deepseek-v4.1-flash-1017": 0.041307422}, "success_cost": 0.061424966, "missing": 0, "peak_input": {"openai/gpt-5.2": 1604, "deepseek/deepseek-v4.1-flash-1017": 54559}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [1.0, 1.0, 1.0, 1.0], "pass_k": {"1": 1.0, "2": 1.0, "3": 1.0, "4": 1.0}, "cost": {"openai/gpt-5.2": 0.03898405, "deepseek/deepseek-v4.1-flash-1017": 0.00527749}, "success_cost": 0.04426154, "missing": 0, "peak_input": {"openai/gpt-5.2": 1606, "deepseek/deepseek-v4.1-flash-1017": 5196}, "excluded_attempts_with_receipts": 0}}, "task_003": {"bm25": {"rewards": [0.0, 1.0, 1.0, 1.0], "pass_k": {"1": 0.75, "2": 0.5, "3": 0.25, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.04253725, "deepseek/deepseek-v4.1-flash-1017": 0.043087996}, "success_cost": 0.065616258, "missing": 0, "peak_input": {"openai/gpt-5.2": 2031, "deepseek/deepseek-v4.1-flash-1017": 55665}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [0.0, 1.0, 1.0, 0.0], "pass_k": {"1": 0.5, "2": 0.16666666666666666, "3": 0.0, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.0342006, "deepseek/deepseek-v4.1-flash-1017": 0.00806642}, "success_cost": 0.02172299, "missing": 0, "peak_input": {"openai/gpt-5.2": 1696, "deepseek/deepseek-v4.1-flash-1017": 5474}, "excluded_attempts_with_receipts": 0}}, "task_004": {"bm25": {"rewards": [1.0, 1.0, 0.0, 1.0], "pass_k": {"1": 0.75, "2": 0.5, "3": 0.25, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.06145755, "deepseek/deepseek-v4.1-flash-1017": 0.019408212}, "success_cost": 0.057256994, "missing": 0, "peak_input": {"openai/gpt-5.2": 2008, "deepseek/deepseek-v4.1-flash-1017": 13679}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [1.0, 1.0, 1.0, 1.0], "pass_k": {"1": 1.0, "2": 1.0, "3": 1.0, "4": 1.0}, "cost": {"openai/gpt-5.2": 0.05463115, "deepseek/deepseek-v4.1-flash-1017": 0.00789611}, "success_cost": 0.06252726, "missing": 0, "peak_input": {"openai/gpt-5.2": 1691, "deepseek/deepseek-v4.1-flash-1017": 5418}, "excluded_attempts_with_receipts": 0}}, "task_007": {"bm25": {"rewards": [1.0, 1.0, 1.0, 0.0], "pass_k": {"1": 0.75, "2": 0.5, "3": 0.25, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.03532515, "deepseek/deepseek-v4.1-flash-1017": 0.12194715}, "success_cost": 0.115439794, "missing": 0, "peak_input": {"openai/gpt-5.2": 1744, "deepseek/deepseek-v4.1-flash-1017": 120865}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [1.0, 1.0, 1.0, 1.0], "pass_k": {"1": 1.0, "2": 1.0, "3": 1.0, "4": 1.0}, "cost": {"openai/gpt-5.2": 0.04015445, "deepseek/deepseek-v4.1-flash-1017": 0.00573826}, "success_cost": 0.04589271, "missing": 0, "peak_input": {"openai/gpt-5.2": 1686, "deepseek/deepseek-v4.1-flash-1017": 5017}, "excluded_attempts_with_receipts": 0}}, "task_012": {"bm25": {"rewards": [1.0, 1.0, 0.0, 1.0], "pass_k": {"1": 0.75, "2": 0.5, "3": 0.25, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.0382704, "deepseek/deepseek-v4.1-flash-1017": 0.031504248}, "success_cost": 0.05062751, "missing": 0, "peak_input": {"openai/gpt-5.2": 1979, "deepseek/deepseek-v4.1-flash-1017": 28548}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [1.0, 1.0, 1.0, 1.0], "pass_k": {"1": 1.0, "2": 1.0, "3": 1.0, "4": 1.0}, "cost": {"openai/gpt-5.2": 0.0498918, "deepseek/deepseek-v4.1-flash-1017": 0.015597248}, "success_cost": 0.065489048, "missing": 0, "peak_input": {"openai/gpt-5.2": 2155, "deepseek/deepseek-v4.1-flash-1017": 5579}, "excluded_attempts_with_receipts": 0}}, "task_027": {"bm25": {"rewards": [0.0, 0.0, 0.0, 0.0], "pass_k": {"1": 0.0, "2": 0.0, "3": 0.0, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.1842134, "deepseek/deepseek-v4.1-flash-1017": 0.141140862}, "success_cost": 0.0, "missing": 0, "peak_input": {"openai/gpt-5.2": 5131, "deepseek/deepseek-v4.1-flash-1017": 55749}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [0.0, 0.0, 0.0, 0.0], "pass_k": {"1": 0.0, "2": 0.0, "3": 0.0, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.1586011, "deepseek/deepseek-v4.1-flash-1017": 0.072923014}, "success_cost": 0.0, "missing": 0, "peak_input": {"openai/gpt-5.2": 4566, "deepseek/deepseek-v4.1-flash-1017": 16532}, "excluded_attempts_with_receipts": 0}}, "task_043": {"bm25": {"rewards": [0.0, 0.0, 0.0, 0.0], "pass_k": {"1": 0.0, "2": 0.0, "3": 0.0, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.06010235, "deepseek/deepseek-v4.1-flash-1017": 0.05325863}, "success_cost": 0.0, "missing": 0, "peak_input": {"openai/gpt-5.2": 2217, "deepseek/deepseek-v4.1-flash-1017": 30210}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [1.0, 1.0, 1.0, 1.0], "pass_k": {"1": 1.0, "2": 1.0, "3": 1.0, "4": 1.0}, "cost": {"openai/gpt-5.2": 0.0581294, "deepseek/deepseek-v4.1-flash-1017": 0.031028}, "success_cost": 0.0891574, "missing": 0, "peak_input": {"openai/gpt-5.2": 2185, "deepseek/deepseek-v4.1-flash-1017": 11861}, "excluded_attempts_with_receipts": 0}}, "task_062": {"bm25": {"rewards": [0.0, 0.0, 0.0, 0.0], "pass_k": {"1": 0.0, "2": 0.0, "3": 0.0, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.11270525, "deepseek/deepseek-v4.1-flash-1017": 0.218272226}, "success_cost": 0.0, "missing": 0, "peak_input": {"openai/gpt-5.2": 6290, "deepseek/deepseek-v4.1-flash-1017": 97397}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [0.0, 0.0, 1.0, 0.0], "pass_k": {"1": 0.25, "2": 0.0, "3": 0.0, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.0752514, "deepseek/deepseek-v4.1-flash-1017": 0.068229524}, "success_cost": 0.033237762, "missing": 0, "peak_input": {"openai/gpt-5.2": 4020, "deepseek/deepseek-v4.1-flash-1017": 14379}, "excluded_attempts_with_receipts": 0}}, "task_098": {"bm25": {"rewards": [0.0, 0.0, 0.0, 0.0], "pass_k": {"1": 0.0, "2": 0.0, "3": 0.0, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.04872105, "deepseek/deepseek-v4.1-flash-1017": 0.077560654}, "success_cost": 0.0, "missing": 0, "peak_input": {"openai/gpt-5.2": 2961, "deepseek/deepseek-v4.1-flash-1017": 57864}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [1.0, 1.0, 1.0, 1.0], "pass_k": {"1": 1.0, "2": 1.0, "3": 1.0, "4": 1.0}, "cost": {"openai/gpt-5.2": 0.041804, "deepseek/deepseek-v4.1-flash-1017": 0.04591309}, "success_cost": 0.08771709, "missing": 0, "peak_input": {"openai/gpt-5.2": 2910, "deepseek/deepseek-v4.1-flash-1017": 12354}, "excluded_attempts_with_receipts": 0}}, "task_102": {"bm25": {"rewards": [0.0, 0.0, 1.0, 1.0], "pass_k": {"1": 0.5, "2": 0.16666666666666666, "3": 0.0, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.11884285, "deepseek/deepseek-v4.1-flash-1017": 0.153803494, "openai/gpt-4.1": 0.26345}, "success_cost": 0.273205716, "missing": 0, "peak_input": {"openai/gpt-5.2": 5334, "deepseek/deepseek-v4.1-flash-1017": 41495, "openai/gpt-4.1": 37241}, "excluded_attempts_with_receipts": 0}, "golden_retrieval": {"rewards": [0.0, 0.0, 0.0, 0.0], "pass_k": {"1": 0.0, "2": 0.0, "3": 0.0, "4": 0.0}, "cost": {"openai/gpt-5.2": 0.11482345, "deepseek/deepseek-v4.1-flash-1017": 0.080340902, "openai/gpt-4.1": 0.051714}, "success_cost": 0.0, "missing": 0, "peak_input": {"openai/gpt-5.2": 5906, "deepseek/deepseek-v4.1-flash-1017": 18185, "openai/gpt-4.1": 6959}, "excluded_attempts_with_receipts": 0}}}
+{
+  "task_001": {
+    "bm25": {
+      "rewards": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 0.75,
+        "2": 0.5,
+        "3": 0.25,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.0349888,
+        "deepseek/deepseek-v4.1-flash-1017": 0.041307422
+      },
+      "success_cost": 0.061424966,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 1604,
+        "deepseek/deepseek-v4.1-flash-1017": 54559
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.03898405,
+        "deepseek/deepseek-v4.1-flash-1017": 0.00527749
+      },
+      "success_cost": 0.04426154,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 1606,
+        "deepseek/deepseek-v4.1-flash-1017": 5196
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  },
+  "task_003": {
+    "bm25": {
+      "rewards": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 0.75,
+        "2": 0.5,
+        "3": 0.25,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.04253725,
+        "deepseek/deepseek-v4.1-flash-1017": 0.043087996
+      },
+      "success_cost": 0.065616258,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 2031,
+        "deepseek/deepseek-v4.1-flash-1017": 55665
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "pass_k": {
+        "1": 0.5,
+        "2": 0.16666666666666666,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.0342006,
+        "deepseek/deepseek-v4.1-flash-1017": 0.00806642
+      },
+      "success_cost": 0.02172299,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 1696,
+        "deepseek/deepseek-v4.1-flash-1017": 5474
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  },
+  "task_004": {
+    "bm25": {
+      "rewards": [
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 0.75,
+        "2": 0.5,
+        "3": 0.25,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.06145755,
+        "deepseek/deepseek-v4.1-flash-1017": 0.019408212
+      },
+      "success_cost": 0.057256994,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 2008,
+        "deepseek/deepseek-v4.1-flash-1017": 13679
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.05463115,
+        "deepseek/deepseek-v4.1-flash-1017": 0.00789611
+      },
+      "success_cost": 0.06252726,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 1691,
+        "deepseek/deepseek-v4.1-flash-1017": 5418
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  },
+  "task_007": {
+    "bm25": {
+      "rewards": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "pass_k": {
+        "1": 0.75,
+        "2": 0.5,
+        "3": 0.25,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.03532515,
+        "deepseek/deepseek-v4.1-flash-1017": 0.12194715
+      },
+      "success_cost": 0.115439794,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 1744,
+        "deepseek/deepseek-v4.1-flash-1017": 120865
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.04015445,
+        "deepseek/deepseek-v4.1-flash-1017": 0.00573826
+      },
+      "success_cost": 0.04589271,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 1686,
+        "deepseek/deepseek-v4.1-flash-1017": 5017
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  },
+  "task_012": {
+    "bm25": {
+      "rewards": [
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 0.75,
+        "2": 0.5,
+        "3": 0.25,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.0382704,
+        "deepseek/deepseek-v4.1-flash-1017": 0.031504248
+      },
+      "success_cost": 0.05062751,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 1979,
+        "deepseek/deepseek-v4.1-flash-1017": 28548
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.0498918,
+        "deepseek/deepseek-v4.1-flash-1017": 0.015597248
+      },
+      "success_cost": 0.065489048,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 2155,
+        "deepseek/deepseek-v4.1-flash-1017": 5579
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  },
+  "task_027": {
+    "bm25": {
+      "rewards": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.1842134,
+        "deepseek/deepseek-v4.1-flash-1017": 0.141140862
+      },
+      "success_cost": 0.0,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 5131,
+        "deepseek/deepseek-v4.1-flash-1017": 55749
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.1586011,
+        "deepseek/deepseek-v4.1-flash-1017": 0.072923014
+      },
+      "success_cost": 0.0,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 4566,
+        "deepseek/deepseek-v4.1-flash-1017": 16532
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  },
+  "task_043": {
+    "bm25": {
+      "rewards": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.06010235,
+        "deepseek/deepseek-v4.1-flash-1017": 0.05325863
+      },
+      "success_cost": 0.0,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 2217,
+        "deepseek/deepseek-v4.1-flash-1017": 30210
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.0581294,
+        "deepseek/deepseek-v4.1-flash-1017": 0.031028
+      },
+      "success_cost": 0.0891574,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 2185,
+        "deepseek/deepseek-v4.1-flash-1017": 11861
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  },
+  "task_062": {
+    "bm25": {
+      "rewards": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.11270525,
+        "deepseek/deepseek-v4.1-flash-1017": 0.218272226
+      },
+      "success_cost": 0.0,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 6290,
+        "deepseek/deepseek-v4.1-flash-1017": 97397
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pass_k": {
+        "1": 0.25,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.0752514,
+        "deepseek/deepseek-v4.1-flash-1017": 0.068229524
+      },
+      "success_cost": 0.033237762,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 4020,
+        "deepseek/deepseek-v4.1-flash-1017": 14379
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  },
+  "task_098": {
+    "bm25": {
+      "rewards": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.04872105,
+        "deepseek/deepseek-v4.1-flash-1017": 0.077560654
+      },
+      "success_cost": 0.0,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 2961,
+        "deepseek/deepseek-v4.1-flash-1017": 57864
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.041804,
+        "deepseek/deepseek-v4.1-flash-1017": 0.04591309
+      },
+      "success_cost": 0.08771709,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 2910,
+        "deepseek/deepseek-v4.1-flash-1017": 12354
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  },
+  "task_102": {
+    "bm25": {
+      "rewards": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "pass_k": {
+        "1": 0.5,
+        "2": 0.16666666666666666,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.11884285,
+        "deepseek/deepseek-v4.1-flash-1017": 0.153803494,
+        "openai/gpt-4.1": 0.26345
+      },
+      "success_cost": 0.273205716,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 5334,
+        "deepseek/deepseek-v4.1-flash-1017": 41495,
+        "openai/gpt-4.1": 37241
+      },
+      "excluded_attempts_with_receipts": 0
+    },
+    "golden_retrieval": {
+      "rewards": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_k": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "cost": {
+        "openai/gpt-5.2": 0.11482345,
+        "deepseek/deepseek-v4.1-flash-1017": 0.080340902,
+        "openai/gpt-4.1": 0.051714
+      },
+      "success_cost": 0.0,
+      "missing": 0,
+      "peak_input": {
+        "openai/gpt-5.2": 5906,
+        "deepseek/deepseek-v4.1-flash-1017": 18185,
+        "openai/gpt-4.1": 6959
+      },
+      "excluded_attempts_with_receipts": 0
+    }
+  }
+}

@@ -18,7 +18,7 @@ This project studies when a banking agent should narrow its search. The complete
 
 ## Raw trajectories
 
-The two full-run directories contain the recorded runner trajectories. The export omits the opaque provider-encrypted reasoning payloads. Each file preserves the messages, model responses where available, tool calls and results, reward breakdown, trial number and seed.
+The two full-run directories contain the recorded runner trajectories. The export omits opaque provider-encrypted reasoning payloads and system fingerprints, replaces provider request IDs with stable hashes, and replaces local user home paths with /workspace. Each file preserves the messages, model responses where available, tool calls and results, reward breakdown, trial number and seed.
 
 - [OpenRouter agent route](final/baseline/runs/ds1017-4x/) — 504 accepted episodes.
 - [DeepSeek native agent route](final/baseline/runs/ds1017-native-4x/) — 272 accepted episodes.

@@ -283,11 +283,10 @@
             "prompt_tokens": 1435
           },
           "raw_data": {
-            "id": "gen-1794744171-bY1E49JqWGIlRpNy5HnF",
+            "id": "request-c600a17cb07c63d966c148ed",
             "created": 1794744171,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -385,11 +384,10 @@
             "prompt_tokens": 3701
           },
           "raw_data": {
-            "id": "gen-1794744173-rMpjuocty7YjoYkKDc3S",
+            "id": "request-65ff64c5a0efeab707bceb24",
             "created": 1794744173,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -542,11 +540,10 @@
             "prompt_tokens": 11715
           },
           "raw_data": {
-            "id": "gen-1794744174-XkCprZIlvMAq7dQmVkYk",
+            "id": "request-a2a996b329cc374813bd25de",
             "created": 1794744174,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -743,11 +740,10 @@
             "prompt_tokens": 27448
           },
           "raw_data": {
-            "id": "gen-1794744177-QFhTUXOiNCBL8hDrU5DB",
+            "id": "request-0dc0eae8d54705d84cdb852c",
             "created": 1794744177,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -962,11 +958,10 @@
             "prompt_tokens": 50257
           },
           "raw_data": {
-            "id": "gen-1794744182-9l4dTuxybNsd7D7DLVfe",
+            "id": "request-016df24218eb7d057925653b",
             "created": 1794744182,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1173,11 +1168,10 @@
             "prompt_tokens": 70293
           },
           "raw_data": {
-            "id": "gen-1794744186-wF2kEh2aIkP8Dfbh3kUR",
+            "id": "request-1ef4943958dc804d2f91da34",
             "created": 1794744186,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1366,11 +1360,10 @@
             "prompt_tokens": 85551
           },
           "raw_data": {
-            "id": "gen-1794744192-TIGStvkl2fzJZc7vd4W3",
+            "id": "request-52fa72da1656b5c7a3d3f265",
             "created": 1794744192,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1567,11 +1560,10 @@
             "prompt_tokens": 99686
           },
           "raw_data": {
-            "id": "gen-1794744195-XjtCVF7pdBLdLNFnsHm5",
+            "id": "request-b1d457338a83a5795539d1d1",
             "created": 1794744195,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1770,11 +1762,10 @@
             "prompt_tokens": 115630
           },
           "raw_data": {
-            "id": "gen-1794744208-DUvmJC9Yotajn7doTumK",
+            "id": "request-e0576ab3fe6fe5ef6a0e6b67",
             "created": 1794744208,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -1937,11 +1928,10 @@
             "prompt_tokens": 125804
           },
           "raw_data": {
-            "id": "gen-1794744222-KL1sZHO3DfZmWF1Aw3ft",
+            "id": "request-890892ce5ce1101ca489d357",
             "created": 1794744222,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2096,11 +2086,10 @@
             "prompt_tokens": 135757
           },
           "raw_data": {
-            "id": "gen-1794744225-1g9zKXGboRFSldiq1qWn",
+            "id": "request-6032d67195de1fe722f7346e",
             "created": 1794744225,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2237,11 +2226,10 @@
             "prompt_tokens": 143958
           },
           "raw_data": {
-            "id": "gen-1794744238-8SheEsvYaUfzMXiOsHRE",
+            "id": "request-7723282d9778e58f48b49f18",
             "created": 1794744238,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2361,11 +2349,10 @@
             "prompt_tokens": 152141
           },
           "raw_data": {
-            "id": "gen-1794744252-CpOyKYANcltPo3iyLhQp",
+            "id": "request-28985ac8c0f4ed38dbf70b78",
             "created": 1794744252,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -2460,11 +2447,10 @@
             "prompt_tokens": 2171
           },
           "raw_data": {
-            "id": "gen-1794744299-EzVyuhwowUMbdS79ia8X",
+            "id": "request-84c7ad436572cbcd691b3d2b",
             "created": 1794744299,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2572,11 +2558,10 @@
             "prompt_tokens": 2254
           },
           "raw_data": {
-            "id": "gen-1794744303-z4kbFkvQstW9EZgVzz2x",
+            "id": "request-d9b988f1f8394cd427f2d79e",
             "created": 1794744303,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -2666,11 +2651,10 @@
             "prompt_tokens": 152817
           },
           "raw_data": {
-            "id": "gen-1794744305-mllM5gfZ0ONE7a5gQm2D",
+            "id": "request-9638a1471a838e2952cc013d",
             "created": 1794744305,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -2790,11 +2774,10 @@
             "prompt_tokens": 164945
           },
           "raw_data": {
-            "id": "gen-1794744309-32TEhjJiykzyBVekMDfR",
+            "id": "request-89f13d85bc6bcb8bded1871f",
             "created": 1794744309,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -2877,11 +2860,10 @@
             "prompt_tokens": 2420
           },
           "raw_data": {
-            "id": "gen-1794744316-kAHgYJj1wFTmX1qAKMWR",
+            "id": "request-69e4bf00def0a9669cf12182",
             "created": 1794744316,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -2963,11 +2945,10 @@
             "prompt_tokens": 165147
           },
           "raw_data": {
-            "id": "gen-1794744318-K9LXUri51VdWUULQewlA",
+            "id": "request-e8e784cef6b4d8a8e5a9951a",
             "created": 1794744318,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3076,11 +3057,10 @@
             "prompt_tokens": 165313
           },
           "raw_data": {
-            "id": "gen-1794744321-nohzLp6TJzqlRCEX28NB",
+            "id": "request-1d111877de2856f715e690e8",
             "created": 1794744321,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3197,11 +3177,10 @@
             "prompt_tokens": 165382
           },
           "raw_data": {
-            "id": "gen-1794744324-rQCjVWh7ODLhJGstOPzz",
+            "id": "request-86cb8787863ba42c6f29843b",
             "created": 1794744324,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3312,11 +3291,10 @@
             "prompt_tokens": 165625
           },
           "raw_data": {
-            "id": "gen-1794744328-aOkdsMDTUlVEumDdDWY5",
+            "id": "request-a7ba6f708169674b39e87d41",
             "created": 1794744328,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3428,11 +3406,10 @@
             "prompt_tokens": 165882
           },
           "raw_data": {
-            "id": "gen-1794744334-HbSwkNN9UJm8RaCPj3ox",
+            "id": "request-10308cec18723c505b6e5e8b",
             "created": 1794744334,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3533,11 +3510,10 @@
             "prompt_tokens": 166124
           },
           "raw_data": {
-            "id": "gen-1794744336-GfYD80wHScyWFu3C9BYr",
+            "id": "request-86c8e733b18e68e892c4d975",
             "created": 1794744336,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3649,11 +3625,10 @@
             "prompt_tokens": 166431
           },
           "raw_data": {
-            "id": "gen-1794744342-GNx1xsxnESWiSimEKgQE",
+            "id": "request-f4cfeebf9a5582a40084b7df",
             "created": 1794744342,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -3745,11 +3720,10 @@
             "prompt_tokens": 166621
           },
           "raw_data": {
-            "id": "gen-1794744345-JrHGxqtcHZNuloYFToT7",
+            "id": "request-25d900239d935f9b8de3999c",
             "created": 1794744345,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -3832,11 +3806,10 @@
             "prompt_tokens": 2725
           },
           "raw_data": {
-            "id": "gen-1794744349-wBQLr41dYJb9rvPfeVD8",
+            "id": "request-9128aa1a34bb62596347c409",
             "created": 1794744349,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -3918,11 +3891,10 @@
             "prompt_tokens": 166906
           },
           "raw_data": {
-            "id": "gen-1794744351-Uv8lc0bEEpJjvppEM5Ga",
+            "id": "request-fc25c29daf68b29dc128d40b",
             "created": 1794744351,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4024,11 +3996,10 @@
             "prompt_tokens": 174235
           },
           "raw_data": {
-            "id": "gen-1794744358-2yqJYrQi5HpjMa1yVaDd",
+            "id": "request-a66e56f2aee41a94e784fb5a",
             "created": 1794744358,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -4111,11 +4082,10 @@
             "prompt_tokens": 3154
           },
           "raw_data": {
-            "id": "gen-1794744363-Lpk39TzN3fVW7w3bUgx5",
+            "id": "request-7124c441ed56b38243f3aecb",
             "created": 1794744363,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -4337,11 +4307,10 @@
             "prompt_tokens": 1435
           },
           "raw_data": {
-            "id": "gen-1794744171-vh9GOGXnU5EIFI8FjrQ2",
+            "id": "request-4ab49f41230292f81ac0957c",
             "created": 1794744171,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -4447,11 +4416,10 @@
             "prompt_tokens": 3701
           },
           "raw_data": {
-            "id": "gen-1794744174-FpfJVIetXv4g6Ej3WXUC",
+            "id": "request-00a5e867d07562a5157a6766",
             "created": 1794744174,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4604,11 +4572,10 @@
             "prompt_tokens": 11565
           },
           "raw_data": {
-            "id": "gen-1794744175-Wh66HJ92GBKmBiVutbTo",
+            "id": "request-68b212f3694a3fa9c0a353d2",
             "created": 1794744175,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4789,11 +4756,10 @@
             "prompt_tokens": 26974
           },
           "raw_data": {
-            "id": "gen-1794744177-6kY6ppKTJzk4vKA8jyi4",
+            "id": "request-2648421433bd72ca4c08ae28",
             "created": 1794744177,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -4964,11 +4930,10 @@
             "prompt_tokens": 37369
           },
           "raw_data": {
-            "id": "gen-1794744185-e9d7J8q9TjTgwDzhgMTg",
+            "id": "request-0c65fb0eda44578bf1c63301",
             "created": 1794744185,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -5157,11 +5122,10 @@
             "prompt_tokens": 52894
           },
           "raw_data": {
-            "id": "gen-1794744191-ERRDQDxJvmA6hrDxQxII",
+            "id": "request-0da9a0c9049d3c4fd4e3f9d2",
             "created": 1794744191,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -5350,11 +5314,10 @@
             "prompt_tokens": 66824
           },
           "raw_data": {
-            "id": "gen-1794744197-Pujh6XG0Ut5j6DAxxEbT",
+            "id": "request-379937eaedb6680bb62f4a94",
             "created": 1794744197,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -5543,11 +5506,10 @@
             "prompt_tokens": 82004
           },
           "raw_data": {
-            "id": "gen-1794744200-n84Vc4BusOK6l55xR4c4",
+            "id": "request-a10f46549af0cf4cc8f18a98",
             "created": 1794744200,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -5736,11 +5698,10 @@
             "prompt_tokens": 94848
           },
           "raw_data": {
-            "id": "gen-1794744202-adadiQTBbvbHIBzHfsrb",
+            "id": "request-33b169650ce5d464a546a041",
             "created": 1794744202,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -5913,11 +5874,10 @@
             "prompt_tokens": 108000
           },
           "raw_data": {
-            "id": "gen-1794744222-aQ81FJid5oUmVT18wcii",
+            "id": "request-768e691f90eef64f75626aef",
             "created": 1794744222,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6070,11 +6030,10 @@
             "prompt_tokens": 116057
           },
           "raw_data": {
-            "id": "gen-1794744361-oyAnQon0WQzNVMEuA26l",
+            "id": "request-fbb707199339824753f16095",
             "created": 1794744361,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6255,11 +6214,10 @@
             "prompt_tokens": 130538
           },
           "raw_data": {
-            "id": "gen-1794744375-AmQv9CaVJathxqmRybcL",
+            "id": "request-d65a9ba8ef63473b325e7bec",
             "created": 1794744375,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6422,11 +6380,10 @@
             "prompt_tokens": 141176
           },
           "raw_data": {
-            "id": "gen-1794744387-zBy3321KJsW1kGof84f3",
+            "id": "request-09b3eaea3f457e94a5bb8e64",
             "created": 1794744387,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6564,11 +6521,10 @@
             "prompt_tokens": 153175
           },
           "raw_data": {
-            "id": "gen-1794744406-l5IGd8GzebbW6uEuVqQS",
+            "id": "request-f4fef40d4e9bc4a15cff0c19",
             "created": 1794744406,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -6651,11 +6607,10 @@
             "prompt_tokens": 2173
           },
           "raw_data": {
-            "id": "gen-1794744432-jznAkjfORi5dWgK6fBkG",
+            "id": "request-340a55ec6d1a59ac66a6ec88",
             "created": 1794744432,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -6753,11 +6708,10 @@
             "prompt_tokens": 153903
           },
           "raw_data": {
-            "id": "gen-1794744437-dzgYgk2BrFRVkioifK9q",
+            "id": "request-5ddb7d183a7bfac797b7565c",
             "created": 1794744437,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6866,11 +6820,10 @@
             "prompt_tokens": 154092
           },
           "raw_data": {
-            "id": "gen-1794744440-mXsNLns8WEBU2qPBDUyo",
+            "id": "request-65ee5f30b4b71f4f5349a2ea",
             "created": 1794744440,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -6987,11 +6940,10 @@
             "prompt_tokens": 154163
           },
           "raw_data": {
-            "id": "gen-1794744442-j3unsp0ztoMbrSObHsLj",
+            "id": "request-a1eeecd70013ba2bc695dc25",
             "created": 1794744442,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7092,11 +7044,10 @@
             "prompt_tokens": 154406
           },
           "raw_data": {
-            "id": "gen-1794744446-Tpqpl52hEedqXRX7FNq9",
+            "id": "request-dfc9321d9c4333af841873ee",
             "created": 1794744446,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7208,11 +7159,10 @@
             "prompt_tokens": 154646
           },
           "raw_data": {
-            "id": "gen-1794744453-sBUkPOvLPZ1UWbEorCQs",
+            "id": "request-f0ace1d561355dd805b681b6",
             "created": 1794744453,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7321,11 +7271,10 @@
             "prompt_tokens": 154888
           },
           "raw_data": {
-            "id": "gen-1794744460-7Pahwi93KFgYFWxmhrjb",
+            "id": "request-04caff26847eb6a33377f76b",
             "created": 1794744460,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7455,11 +7404,10 @@
             "prompt_tokens": 160242
           },
           "raw_data": {
-            "id": "gen-1794744467-6MxSORNCXYoph6zyh9Wb",
+            "id": "request-c415b59649d28e7f8fdf9d7b",
             "created": 1794744467,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7561,11 +7509,10 @@
             "prompt_tokens": 160475
           },
           "raw_data": {
-            "id": "gen-1794744471-iYLUHrQaSF95LkinjPMe",
+            "id": "request-8ccf08bf701b913f29e5bbc8",
             "created": 1794744471,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -7660,11 +7607,10 @@
             "prompt_tokens": 2655
           },
           "raw_data": {
-            "id": "gen-1794744475-AzLyFOFESMZkxXEr09RI",
+            "id": "request-d1b17297ff3d1971316a9d44",
             "created": 1794744475,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -7772,11 +7718,10 @@
             "prompt_tokens": 2738
           },
           "raw_data": {
-            "id": "gen-1794744480-zXzI3FIM3CnACxlqbyvA",
+            "id": "request-e1746994cb08c9f2fba2ffba",
             "created": 1794744480,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -7849,11 +7794,10 @@
             "prompt_tokens": 160982
           },
           "raw_data": {
-            "id": "gen-1794744483-23jSAAATM16YEQ6lfWLi",
+            "id": "request-8de649f145d0f7228ba30f37",
             "created": 1794744483,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -7936,11 +7880,10 @@
             "prompt_tokens": 3167
           },
           "raw_data": {
-            "id": "gen-1794744488-9YYrZaFUV0qrVJUMK7qY",
+            "id": "request-eb0f06fa6719dba4da6e78d3",
             "created": 1794744488,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -8162,11 +8105,10 @@
             "prompt_tokens": 1435
           },
           "raw_data": {
-            "id": "gen-1794744171-2j1epGquzcNOT82iM38T",
+            "id": "request-200413ddca9af8747c73cf49",
             "created": 1794744171,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -8264,11 +8206,10 @@
             "prompt_tokens": 3701
           },
           "raw_data": {
-            "id": "gen-1794744173-Bl8MMxIfbjCP7LCnvhMr",
+            "id": "request-9d65759b239273a7743ace9a",
             "created": 1794744173,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -8413,11 +8354,10 @@
             "prompt_tokens": 10267
           },
           "raw_data": {
-            "id": "gen-1794744174-pbxkPXxvscRcDVAvFuK0",
+            "id": "request-ad94b96d6dc22dcc71cf829f",
             "created": 1794744174,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -8580,11 +8520,10 @@
             "prompt_tokens": 21656
           },
           "raw_data": {
-            "id": "gen-1794744177-qtlOAX0sjTiMHK3stpCj",
+            "id": "request-0d1e442b6f0d8a67865af669",
             "created": 1794744177,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -8755,11 +8694,10 @@
             "prompt_tokens": 35820
           },
           "raw_data": {
-            "id": "gen-1794744181-rdypVYsGhxv7WbSOFqsx",
+            "id": "request-43afeb7ccc7af9ff5cc0b497",
             "created": 1794744181,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -8948,11 +8886,10 @@
             "prompt_tokens": 50900
           },
           "raw_data": {
-            "id": "gen-1794744187-gFbQ550LTfzkUsFHfqYV",
+            "id": "request-a619cbb80f9e45d54a305392",
             "created": 1794744187,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9125,11 +9062,10 @@
             "prompt_tokens": 67869
           },
           "raw_data": {
-            "id": "gen-1794744195-geSCKvChfX2bn5E87FGM",
+            "id": "request-6633d2981ea7a4830fba288f",
             "created": 1794744195,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9282,11 +9218,10 @@
             "prompt_tokens": 75440
           },
           "raw_data": {
-            "id": "gen-1794744199-HMSuPflsO72P68KoDVR3",
+            "id": "request-a2c4da32e0f1b3effd5198b9",
             "created": 1794744199,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9467,11 +9402,10 @@
             "prompt_tokens": 88914
           },
           "raw_data": {
-            "id": "gen-1794744212-iFK99giftbMY167EtblL",
+            "id": "request-e269a8e54393b7ddc9d84261",
             "created": 1794744212,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9634,11 +9568,10 @@
             "prompt_tokens": 99744
           },
           "raw_data": {
-            "id": "gen-1794744220-FwKISanuEVUZ8h5vaYR5",
+            "id": "request-59fb4e60210bfcce294401be",
             "created": 1794744220,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9801,11 +9734,10 @@
             "prompt_tokens": 110122
           },
           "raw_data": {
-            "id": "gen-1794744231-Tab8ZgmUnJVUxz1kZH3K",
+            "id": "request-415364e567f561a6b9fb9ef0",
             "created": 1794744231,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -9968,11 +9900,10 @@
             "prompt_tokens": 121536
           },
           "raw_data": {
-            "id": "gen-1794744244-1tr1PCpy7We2Msxez9DT",
+            "id": "request-bf42a9f51e63c44b893f0095",
             "created": 1794744244,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10127,11 +10058,10 @@
             "prompt_tokens": 133012
           },
           "raw_data": {
-            "id": "gen-1794744253-w813obTlYESSQjf5jYIJ",
+            "id": "request-bba4125869386f2766a5db4e",
             "created": 1794744253,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10268,11 +10198,10 @@
             "prompt_tokens": 140359
           },
           "raw_data": {
-            "id": "gen-1794744285-GbDPWi3XCr52T9RKA8hC",
+            "id": "request-e783cedafbeea64b75d4b9c2",
             "created": 1794744285,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10409,11 +10338,10 @@
             "prompt_tokens": 146425
           },
           "raw_data": {
-            "id": "gen-1794744444-Cm9z1wU4FW4vinGYPVQe",
+            "id": "request-a1811bdedc7c5144a96d29e3",
             "created": 1794744444,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10533,11 +10461,10 @@
             "prompt_tokens": 155614
           },
           "raw_data": {
-            "id": "gen-1794744455-6Wf6veyPhu46hcoXqd8a",
+            "id": "request-73701b72040d724576efe927",
             "created": 1794744455,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -10632,11 +10559,10 @@
             "prompt_tokens": 2168
           },
           "raw_data": {
-            "id": "gen-1794744481-dZjzdl8MUs8POlkC4giz",
+            "id": "request-a749cd906cf4053388e20fc4",
             "created": 1794744481,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10736,11 +10662,10 @@
             "prompt_tokens": 2251
           },
           "raw_data": {
-            "id": "gen-1794744484-RbXAgs9l3YXp1qg78vFX",
+            "id": "request-77a61e2cfba34203087eda63",
             "created": 1794744484,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -10838,11 +10763,10 @@
             "prompt_tokens": 156329
           },
           "raw_data": {
-            "id": "gen-1794744486-s26DmtjzkjHAz2kuWbs7",
+            "id": "request-c0dd1ae178faec4892a64536",
             "created": 1794744486,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -10980,11 +10904,10 @@
             "prompt_tokens": 170664
           },
           "raw_data": {
-            "id": "gen-1794744494-5qGJJfcNRLVOHoEoosgT",
+            "id": "request-e3c9d0544dad2e105d502b85",
             "created": 1794744494,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -11067,11 +10990,10 @@
             "prompt_tokens": 2474
           },
           "raw_data": {
-            "id": "gen-1794744503-vhrshQoqGgnyQ1XHsR1U",
+            "id": "request-e06f9e584e7cd1a8fd1d35c4",
             "created": 1794744503,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -11153,11 +11075,10 @@
             "prompt_tokens": 170885
           },
           "raw_data": {
-            "id": "gen-1794744511-3dHoxvWrL5PCkAPEG9vF",
+            "id": "request-df6a656ee1a45e7698bc44ec",
             "created": 1794744511,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11266,11 +11187,10 @@
             "prompt_tokens": 171053
           },
           "raw_data": {
-            "id": "gen-1794744516-JDYqLSXH1wTuHNKocQWY",
+            "id": "request-412a6210a993b813d83bcc5c",
             "created": 1794744516,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11387,11 +11307,10 @@
             "prompt_tokens": 171116
           },
           "raw_data": {
-            "id": "gen-1794744521-hVRLgrznjjbZClMZVXeF",
+            "id": "request-f9a84e072e771db043b04247",
             "created": 1794744521,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11502,11 +11421,10 @@
             "prompt_tokens": 171359
           },
           "raw_data": {
-            "id": "gen-1794744526-SzupzWqA7Qt1uGA29awL",
+            "id": "request-da88df83e74686e65a4521bb",
             "created": 1794744526,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11618,11 +11536,10 @@
             "prompt_tokens": 171609
           },
           "raw_data": {
-            "id": "gen-1794744536-kFKYzCky1e8JIul1PULm",
+            "id": "request-ac72fc3a9124a7e39db8917a",
             "created": 1794744536,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "tool_calls",
@@ -11724,11 +11641,10 @@
             "prompt_tokens": 171799
           },
           "raw_data": {
-            "id": "gen-1794744540-Z5ThHQV6ZSRPpIZ8gsHM",
+            "id": "request-55519c97461dfdffe1ddebdc",
             "created": 1794744540,
             "model": "deepseek/deepseek-v4.1-flash-1017",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -11811,11 +11727,10 @@
             "prompt_tokens": 2961
           },
           "raw_data": {
-            "id": "gen-1794744544-CnaejXKNfjz1Nboya4Fn",
+            "id": "request-9a8026fa92159de63ea17335",
             "created": 1794744544,
             "model": "openai/gpt-5.2",
             "object": "chat.completion",
-            "system_fingerprint": null,
             "choices": [
               {
                 "finish_reason": "stop",
@@ -11913,7 +11828,7 @@
       "info": {
         "error": "litellm.APIError: APIError: OpenrouterException - {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\",\"provider_name\":null,\"previous_errors\":[{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\"}]}},\"user_id\":\"user_2wzt8PtbcwDwN2lICTDN84kElGP\"}",
         "error_type": "APIError",
-        "error_traceback": "Traceback (most recent call last):\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py\", line 224, in _make_common_sync_call\n    response = sync_httpx_client.post(\n               ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/http_handler.py\", line 1042, in post\n    raise e\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/http_handler.py\", line 1024, in post\n    response.raise_for_status()\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/httpx/_models.py\", line 829, in raise_for_status\n    raise HTTPStatusError(message, request=request, response=self)\nhttpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/main.py\", line 3212, in completion\n    response = base_llm_http_handler.completion(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py\", line 546, in completion\n    response = self._make_common_sync_call(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py\", line 249, in _make_common_sync_call\n    raise self._handle_error(e=e, provider_config=provider_config)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py\", line 4630, in _handle_error\n    raise provider_config.get_error_class(\nlitellm.llms.openrouter.common_utils.OpenRouterException: {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\",\"provider_name\":null,\"previous_errors\":[{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\"}]}},\"user_id\":\"user_2wzt8PtbcwDwN2lICTDN84kElGP\"}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/utils.py\", line 1569, in wrapper\n    result = original_function(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/main.py\", line 4305, in completion\n    raise exception_type(\n          ^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2398, in exception_type\n    raise e\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2331, in exception_type\n    raise APIError(\nlitellm.exceptions.APIError: litellm.APIError: APIError: OpenrouterException - {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\",\"provider_name\":null,\"previous_errors\":[{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\"}]}},\"user_id\":\"user_2wzt8PtbcwDwN2lICTDN84kElGP\"}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/runner/progress.py\", line 75, in run_with_retry\n    simulation = run_fn()\n                 ^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/runner/batch.py\", line 648, in _execute\n    return run_single_task(\n           ^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/runner/batch.py\", line 412, in run_single_task\n    simulation = run_simulation(\n                 ^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/ds4x/run.py\", line 41, in identify\n    return run_simulation(orchestrator, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/runner/simulation.py\", line 59, in run_simulation\n    simulation = orchestrator.run()\n                 ^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/orchestrator/orchestrator.py\", line 280, in run\n    self.step()\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/orchestrator/orchestrator.py\", line 841, in step\n    user_msg, self.user_state = self.user.generate_next_message(\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/user/user_simulator.py\", line 209, in generate_next_message\n    user_message = self._generate_next_message(message, state)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/user/user_simulator.py\", line 243, in _generate_next_message\n    assistant_message = generate(\n                        ^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/utils/llm_utils.py\", line 418, in generate\n    raise e\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/utils/llm_utils.py\", line 409, in generate\n    response = completion(\n               ^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/ds4x/run.py\", line 46, in record\n    response = generate(*args, **kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/utils.py\", line 1693, in wrapper\n    return litellm.completion_with_retries(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/main.py\", line 4343, in completion_with_retries\n    return retryer(original_function, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 477, in __call__\n    do = self.iter(retry_state=retry_state)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 378, in iter\n    result = action(retry_state)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 420, in exc_check\n    raise retry_exc.reraise()\n          ^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 187, in reraise\n    raise self.last_attempt.result()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/miniconda3/envs/bigfour/lib/python3.12/concurrent/futures/_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/miniconda3/envs/bigfour/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 480, in __call__\n    result = fn(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/utils.py\", line 1748, in wrapper\n    raise e\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/utils.py\", line 1569, in wrapper\n    result = original_function(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/main.py\", line 4305, in completion\n    raise exception_type(\n          ^^^^^^^^^^^^^^^\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2398, in exception_type\n    raise e\n  File \"/Users/shensimon/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2331, in exception_type\n    raise APIError(\nlitellm.exceptions.APIError: litellm.APIError: APIError: OpenrouterException - {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\",\"provider_name\":null,\"previous_errors\":[{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\"}]}},\"user_id\":\"user_2wzt8PtbcwDwN2lICTDN84kElGP\"}\n",
+        "error_traceback": "Traceback (most recent call last):\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py\", line 224, in _make_common_sync_call\n    response = sync_httpx_client.post(\n               ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/http_handler.py\", line 1042, in post\n    raise e\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/http_handler.py\", line 1024, in post\n    response.raise_for_status()\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/httpx/_models.py\", line 829, in raise_for_status\n    raise HTTPStatusError(message, request=request, response=self)\nhttpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/main.py\", line 3212, in completion\n    response = base_llm_http_handler.completion(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py\", line 546, in completion\n    response = self._make_common_sync_call(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py\", line 249, in _make_common_sync_call\n    raise self._handle_error(e=e, provider_config=provider_config)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/llms/custom_httpx/llm_http_handler.py\", line 4630, in _handle_error\n    raise provider_config.get_error_class(\nlitellm.llms.openrouter.common_utils.OpenRouterException: {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\",\"provider_name\":null,\"previous_errors\":[{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\"}]}},\"user_id\":\"user_2wzt8PtbcwDwN2lICTDN84kElGP\"}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/utils.py\", line 1569, in wrapper\n    result = original_function(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/main.py\", line 4305, in completion\n    raise exception_type(\n          ^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2398, in exception_type\n    raise e\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2331, in exception_type\n    raise APIError(\nlitellm.exceptions.APIError: litellm.APIError: APIError: OpenrouterException - {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\",\"provider_name\":null,\"previous_errors\":[{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\"}]}},\"user_id\":\"user_2wzt8PtbcwDwN2lICTDN84kElGP\"}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/runner/progress.py\", line 75, in run_with_retry\n    simulation = run_fn()\n                 ^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/runner/batch.py\", line 648, in _execute\n    return run_single_task(\n           ^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/runner/batch.py\", line 412, in run_single_task\n    simulation = run_simulation(\n                 ^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/ds4x/run.py\", line 41, in identify\n    return run_simulation(orchestrator, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/runner/simulation.py\", line 59, in run_simulation\n    simulation = orchestrator.run()\n                 ^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/orchestrator/orchestrator.py\", line 280, in run\n    self.step()\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/orchestrator/orchestrator.py\", line 841, in step\n    user_msg, self.user_state = self.user.generate_next_message(\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/user/user_simulator.py\", line 209, in generate_next_message\n    user_message = self._generate_next_message(message, state)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/user/user_simulator.py\", line 243, in _generate_next_message\n    assistant_message = generate(\n                        ^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/utils/llm_utils.py\", line 418, in generate\n    raise e\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/src/tau2/utils/llm_utils.py\", line 409, in generate\n    response = completion(\n               ^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/ds4x/run.py\", line 46, in record\n    response = generate(*args, **kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/utils.py\", line 1693, in wrapper\n    return litellm.completion_with_retries(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/main.py\", line 4343, in completion_with_retries\n    return retryer(original_function, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 477, in __call__\n    do = self.iter(retry_state=retry_state)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 378, in iter\n    result = action(retry_state)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 420, in exc_check\n    raise retry_exc.reraise()\n          ^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 187, in reraise\n    raise self.last_attempt.result()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/miniconda3/envs/bigfour/lib/python3.12/concurrent/futures/_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/miniconda3/envs/bigfour/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/tenacity/__init__.py\", line 480, in __call__\n    result = fn(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/utils.py\", line 1748, in wrapper\n    raise e\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/utils.py\", line 1569, in wrapper\n    result = original_function(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/main.py\", line 4305, in completion\n    raise exception_type(\n          ^^^^^^^^^^^^^^^\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2398, in exception_type\n    raise e\n  File \"/workspace/Documents/Code/py/homework/DM/final/baseline/tau2-v1.0.0/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py\", line 2331, in exception_type\n    raise APIError(\nlitellm.exceptions.APIError: litellm.APIError: APIError: OpenrouterException - {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\",\"provider_name\":null,\"previous_errors\":[{\"code\":402,\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46654. To increase, visit https://openrouter.ai/workspaces/default/keys/54bc727f734387cc9a154c0ca8527d767648bca5340e5c3f8e3b11a5560dc562 and adjust the key's monthly limit\"}]}},\"user_id\":\"user_2wzt8PtbcwDwN2lICTDN84kElGP\"}\n",
         "failed_after_attempts": 1
       },
       "auth_classification": null,
